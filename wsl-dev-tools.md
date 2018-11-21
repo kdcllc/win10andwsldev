@@ -7,7 +7,7 @@
 ```
 - Generating new SSH Key for Azure
 ```
-    ssh-keygen -C "maximk@foxeg.com"
+    ssh-keygen -C "someemail@some.com"
 ```
 
 Check if agent is running
@@ -16,8 +16,14 @@ Check if agent is running
 ```
 Add the certificate to the agent
 ```bash
-     ssh-add ~/.ssh/github_id_rsa
+     ssh-add ~/.ssh/id_rsa
 
+```
+
+Configuration
+```bash
+    git config --global user.email "info@kingdavidconsulting.com"
+    git config --global user.name "kdcllc"
 ```
 
 Copy SSH Key
