@@ -17,7 +17,6 @@ Check if agent is running
 Add the certificate to the agent
 ```bash
      ssh-add ~/.ssh/id_rsa
-
 ```
 
 Configuration

@@ -76,3 +76,6 @@ One of the initial steps that I have to do is to reset the location of the `User
 
 Now we are ready to install developers' tools on both system. Unfortunately WSL doesn't recognize installed apps, so we have to have copies of the software to be installed on both.
 For example, I installed `Git` but I also now need to install `Git` on WSL as well.
+
+- [Setup Windows 10](./win10-dev-tools.md)
+- [Setup WSL](./wsl-dev-tools.md)
