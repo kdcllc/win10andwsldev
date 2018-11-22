@@ -1,3 +1,4 @@
+# This Script might need to be run manually line by line.
 # Install Docker Daemon/Client
 
 export DOCKER_VERSION=docker-18.09.0.tgz
