@@ -13,7 +13,7 @@
 4. Install [nvm](https://github.com/creationix/nvm)
 
 ```bash
-  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | sudo bash
+  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 ```
 
 5. Install Node.js
@@ -27,7 +27,7 @@
 6. [Install Docker Daemon and Docker Compose](./wsl_docker_setup.sh)
 
 ```bash
-    curl -o- https://raw.githubusercontent.com/kdcllc/wind10wsldev/master/wsl_docker_setup.sh | bash 
+    curl -o- https://raw.githubusercontent.com/kdcllc/wind10wsldev/master/wsl_docker_setup.sh | sudo bash
 ```
 
  - Or follow the steps in this article [Setting Up Docker for Windows and WSL to Work Flawlessly](https://nickjanetakis.com/blog/setting-up-docker-for-windows-and-wsl-to-work-flawlessly)
