@@ -1,4 +1,4 @@
-# Installation of Docker and Kubernetes
+# Installation of Docker and Kubernetes On the Desktop
 
 1. [Install Docker Daemon and Docker Compose](./wsl_docker_setup.sh)
 
@@ -42,4 +42,12 @@ mkdir ~/.kube \
     tar -xvzf draft-v${DRAFT_VERSION}-linux-amd64.tar.gz && \
     sudo mv linux-amd64/draft /usr/local/bin && \
     draft init
+```
+
+### Useful commands
+
+Stopping all running containers and removing all of the images, volumes, networks
+
+```bash
+    docker container stop $(docker container ls -a -q) && docker system prune -a -f --volumes
 ```
