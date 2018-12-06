@@ -35,12 +35,15 @@ Open-source tooling is changing constantly and some of the legacy application ar
 
     nvm use 10.13.0
 ```
+## Install Azure CLI
 
-3. [Install Azure CLI on Windows](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest)
+[Install Azure CLI on Windows](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest)
 
 - Windows MSI installation package is to be used for this operation.
 
-4. [Chocolatey](https://chocolatey.org/install)
+## Install Chocolatey manager
+
+[Chocolatey](https://chocolatey.org/install)
 
 - This utility is like `brew` or `apt` to install other dependencies.
   Run `powershell` as Administrator
@@ -49,7 +52,9 @@ Open-source tooling is changing constantly and some of the legacy application ar
     Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
 
-6. [Install Visual Studio Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15) or paid
+## Install Visual Studio.NET 2017
+
+[Install Visual Studio Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15) or paid
 
 - Sign-In and configure Visual Studio.NET Identities.
 
@@ -59,7 +64,41 @@ Open-source tooling is changing constantly and some of the legacy application ar
 
 - [Add and Configure Azure Nuget Custom Feed](./azure-nuget-feed.md)
 
-7. [Install POSTMAN](https://www.getpostman.com/download?platform=win64)
+## Clean Uninstall Visual Studio.NET 2017
+
+In case when Uninstall fails on the UI compoenet of the VS Installer then this untility can be used:
+
+```cmd
+     %ProgramFiles(x86)%\Microsoft Visual Studio\Installer\resources\app\layout\installcleanup.exe
+```
+Or use manual delete of the following:
+
+```txt
+    
+    %ProgramData%\Microsoft\VisualStudio\15.0
+
+    %ProgramData%\Microsoft\VisualStudio\Packages
+
+    %AppData%\Microsoft\VisualStudio\15.0*
+
+    %AppData%\Microsoft\VisualStudio\Packages
+
+    %ProgramFiles(x86)%\Microsoft Visual Studio\2017
+
+    HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\15.0*
+
+    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\15.0*
+```
+
+## Install RESTful Tools
+
+[Install POSTMAN](https://www.getpostman.com/download?platform=win64)
 
 - One of the best testing tools for RESTFul Apis.
 - Visual Studio Code Extension is another good alternative [REST Client](https://github.com/Huachao/vscode-restclient)
+
+
+## Others
+
+- [7-zip.org](https://www.7-zip.org/download.html)
+- [Unblock downloaded PowerShell scripts](https://social.technet.microsoft.com/wiki/contents/articles/38496.unblock-downloaded-powershell-scripts.aspx?Redirected=true)
