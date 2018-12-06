@@ -20,13 +20,13 @@ sudo apt-get install dotnet-sdk-2.1
 
 ## [Remove .NET Core Runtime and SDK](https://docs.microsoft.com/en-us/dotnet/core/versions/remove-runtime-sdk-versions?tabs=Linux)
 
-```
+```bash
     sudo apt-get remove dotnet-host
-    
+
     export DOTNET_VERSION=2.1.500
     sudo rm -rf /usr/share/dotnet/sdk/$DOTNET_VERSION
     sudo rm -rf /usr/share/dotnet/shared/Microsoft.NETCore.App/DOTNET_VERSION
     sudo rm -rf /usr/share/dotnet/shared/Microsoft.AspNetCore.App/DOTNET_VERSION
     sudo rm -rf /usr/share/dotnet/host/fxr/DOTNET_VERSION
-    
+
 ```

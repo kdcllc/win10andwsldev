@@ -2,7 +2,9 @@
 
 1. [Install and Configure Git](./wsl-dev-git.md)
 
-2. [Install .NET Core SDK](./wsl-dev-dotnetcore.md)
+2. Install .NET Core SDK
+    - [Install with `apt-get`]](./wsl-dev-dotnetcore.md)
+    - [Install Previews](./wsl-dotnet-preview.md)
 
 3. Install WSL build essential
 
@@ -38,7 +40,7 @@ source ~/.bashrc
 8. [Install Azure CLI with apt](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-apt?view=azure-cli-latest)
 Or Script
 ```bash
-    # require python 2.7
+    # requires python 2.7
     curl -L https://aka.ms/InstallAzureCli | bash
 ```
 
