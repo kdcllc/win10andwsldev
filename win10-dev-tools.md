@@ -100,5 +100,9 @@ Or use manual delete of the following:
 
 ## Others
 
+- `Nuget.exe`
+  ```cmd
+    choco install nuget.commandline
+  ```
 - [7-zip.org](https://www.7-zip.org/download.html)
 - [Unblock downloaded PowerShell scripts](https://social.technet.microsoft.com/wiki/contents/articles/38496.unblock-downloaded-powershell-scripts.aspx?Redirected=true)
