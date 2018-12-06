@@ -16,8 +16,16 @@
 
 3. [Downlaod and Install Docker Edge](https://docs.docker.com/docker-for-windows/edge-release-notes/)
 
-5. Install Helm
+4. Install Helm
 
 ```cmd
     choco install kubernetes-helm
+```
+
+5. Install Draft
+
+[Azure Draft](https://github.com/Azure/draft)
+
+```cmd
+    choco install draft
 ```
