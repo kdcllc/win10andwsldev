@@ -1,0 +1,328 @@
+{
+  "id": "c95d8c3d-896e-4406-9f26-ca1c1eb1fc4f",
+  "name": "My Visual Studio extensions",
+  "description": "A collection of my Visual Studio extensions",
+  "version": "1.0",
+  "extensions": [
+    {
+      "name": ".ignore",
+      "vsixId": "7ac24965-ea21-4108-9cac-6e46394aaaef"
+    },
+    {
+      "name": "Add New File",
+      "vsixId": "2E78AA18-E864-4FBB-B8C8-6186FC865DB3"
+    },
+    {
+      "name": "Angular 2 Snippet Pack",
+      "vsixId": "bb1c4e6a-8943-48fb-a82f-42294d86623c"
+    },
+    {
+      "name": "ASP.NET Providers Connected Service",
+      "vsixId": "Microsoft.VisualStudio.ConnectedServices.Aspnet.Providers"
+    },
+    {
+      "name": "Assembly Load Debugger",
+      "vsixId": "34f00824-cb6a-4bc1-a27d-7375239cdd2f"
+    },
+    {
+      "name": "Azure Data Lake and Stream Analytics Tools",
+      "vsixId": "1e906ff5-9da8-4091-a299-5c253c55fdc9"
+    },
+    {
+      "name": "Azure Functions and Web Jobs Tools",
+      "vsixId": "Microsoft.VisualStudio.Web.AzureFunctions"
+    },
+    {
+      "name": "Browser Reload on Save",
+      "vsixId": "2d8aa02a-8810-421f-97b9-86efc573fea3"
+    },
+    {
+      "name": "Browser Sync",
+      "vsixId": "10d9b3af-1338-4c45-bc99-4ec38c3a11fb"
+    },
+    {
+      "name": "Bundler & Minifier",
+      "vsixId": "a0ae318b-4f07-4f71-93cb-f21d3f03c6d3"
+    },
+    {
+      "name": "Clean Solution",
+      "vsixId": "55640f47-34bc-436b-8820-e7f64fbb31fc"
+    },
+    {
+      "name": "Clear MEF Component Cache",
+      "vsixId": "f5028141-9dd0-4ac4-ae6d-0481ae9a940d"
+    },
+    {
+      "name": "Cloud Explorer for Visual Studio",
+      "vsixId": "Microsoft.VisualStudio.CloudExplorer"
+    },
+    {
+      "name": "CodeMaid",
+      "vsixId": "4c82e17d-927e-42d2-8460-b473ac7df316"
+    },
+    {
+      "name": "Command Explorer",
+      "vsixId": "1a973c52-a674-48d8-a276-65ddab1ac598"
+    },
+    {
+      "name": "Command Task Runner",
+      "vsixId": "fc1aafb2-321e-41bd-ac37-03b09ea8ef31"
+    },
+    {
+      "name": "Comment Remover",
+      "vsixId": "d7c3f904-cc5a-4d47-aa25-81fb7c36df89"
+    },
+    {
+      "name": "Continuous Delivery Tools for Visual Studio",
+      "vsixId": "9db88aee-787e-42f4-b15f-3c23a8b90e19"
+    },
+    {
+      "name": "CSS Tools",
+      "vsixId": "0020efc9-e999-4e6f-a2b6-604127f480bc"
+    },
+    {
+      "name": "Debug Trace Logger",
+      "vsixId": "a299a65a-dcf1-4271-96ca-4fd4c4f80b90"
+    },
+    {
+      "name": "Dummy Text Generator",
+      "vsixId": "0007e9e3-b11a-4d10-8565-9c6ce2ccc286"
+    },
+    {
+      "name": "Editor Enhancements",
+      "vsixId": "a3112f81-e423-4f88-9f2c-e089a309e48e"
+    },
+    {
+      "name": "EditorConfig Language Service",
+      "vsixId": "1209461d-57f8-46a4-814a-dbe5fecef941"
+    },
+    {
+      "name": "EF Core Power Tools",
+      "vsixId": "f4c4712c-ceae-4803-8e52-0e2049d5de9f"
+    },
+    {
+      "name": "Error Catcher II",
+      "vsixId": "376e6cdc-893d-4ae7-ad93-325575c35301"
+    },
+    {
+      "name": "Extensibility Essentials 2017",
+      "vsixId": "f613e37-c9b4-4e49-b61f-0cf036ca76d6"
+    },
+    {
+      "name": "Extensibility Tools",
+      "vsixId": "f8330d54-0469-43a7-8fc0-7f19febeb897"
+    },
+    {
+      "name": "Extension Manager",
+      "vsixId": "e83d71b8-8bfc-4e06-b145-b0388910c016"
+    },
+    {
+      "name": "File Differ",
+      "vsixId": "ea5c68d6-cdae-4e79-bd46-2a39e95bb256"
+    },
+    {
+      "name": "File Icons",
+      "vsixId": "3a7b4930-a5fb-46ec-a9b8-9610c8f953b8"
+    },
+    {
+      "name": "File Nesting",
+      "vsixId": "6c799bc4-0d4c-4172-98bc-5d464b612dca"
+    },
+    {
+      "name": "GitHub Extension for Visual Studio",
+      "vsixId": "c3d3dc68-c977-411f-b3e8-03b0dccf7dfc"
+    },
+    {
+      "name": "Glyph Exporter",
+      "vsixId": "c1e1a7aa-d416-4600-81ce-a0aba0a3b201"
+    },
+    {
+      "name": "HTML Tools",
+      "vsixId": "3cef2919-d8c7-4e9f-a809-5a0ba9c61fac"
+    },
+    {
+      "name": "Image Optimizer",
+      "vsixId": "bf95754f-93d3-42ff-bfe3-e05d23188b08"
+    },
+    {
+      "name": "Image Sprites",
+      "vsixId": "cd92c0c6-2c32-49a3-83ca-0dc767c7d78e"
+    },
+    {
+      "name": "Insert Guid",
+      "vsixId": "9def4441-acfd-4dd6-bffd-4531a57dee37"
+    },
+    {
+      "name": "JavaScript Regions",
+      "vsixId": "74208c70-24ae-4899-ac91-658f11f0e65b"
+    },
+    {
+      "name": "KnownMonikers Explorer",
+      "vsixId": "c38f3512-4653-4d97-a4c5-860a425209f5"
+    },
+    {
+      "name": "Markdown Editor",
+      "vsixId": "9ca64947-e9ca-4543-bfb8-6cce9be19fd6"
+    },
+    {
+      "name": "Microsoft Analysis Services Projects",
+      "vsixId": "04a86fc2-dbd5-4222-848e-911638e487fe"
+    },
+    {
+      "name": "Microsoft Code Analysis 2017",
+      "vsixId": "4db2d63d-3320-4fbd-bf80-07f8d1500bd3"
+    },
+    {
+      "name": "Microsoft DevSkim",
+      "vsixId": "DevSkim"
+    },
+    {
+      "name": "Microsoft Rdlc Report Designer for Visual Studio",
+      "vsixId": "617ad572-c5b7-415c-b166-b2969077f719"
+    },
+    {
+      "name": "Microsoft Reporting Services Projects",
+      "vsixId": "717ad572-c4b7-435c-c166-c2969777f718"
+    },
+    {
+      "name": "Multi Edit Mode",
+      "vsixId": "MultiEdit..c6fb8e57-fde0-4987-8e7a-5ca9b4beddcb"
+    },
+    {
+      "name": "NPM Task Runner",
+      "vsixId": "d7f89ba3-815c-4feb-89b9-68d1654e2138"
+    },
+    {
+      "name": "NuGet PackageReference Upgrader",
+      "vsixId": "bae2a4ae-be17-4f34-be32-f7f103918589"
+    },
+    {
+      "name": "Open Command Line",
+      "vsixId": "f4ab1e64-5d35-4f06-bad9-bf414f4b3bbb"
+    },
+    {
+      "name": "Open in Visual Studio Code",
+      "vsixId": "e99dde0e-e023-410d-bc5d-3f76db71e3f0"
+    },
+    {
+      "name": "Package Installer",
+      "vsixId": "fdd64809-376e-4542-92ce-808a8df06bcc"
+    },
+    {
+      "name": "Package Security Alerts",
+      "vsixId": "1fd37423-142f-4267-8221-93163d573b90"
+    },
+    {
+      "name": "Power Commands for Visual Studio",
+      "vsixId": "PowerCommands.3ecdd89b-f985-483d-8c94-be37de4dc083"
+    },
+    {
+      "name": "PowerShell Tools for Visual Studio 2017",
+      "vsixId": "PowerShellTools.VS2017"
+    },
+    {
+      "name": "Pretty Paste",
+      "vsixId": "PasteR..5f7b47b4-c3d1-4252-bc32-ed92bbb93a8d"
+    },
+    {
+      "name": "Project File Tools",
+      "vsixId": "e22f3d7e-6b01-4ef8-b3cb-ea293a87b00e"
+    },
+    {
+      "name": "Project System Tools",
+      "vsixId": "B6213233-1C34-4F76-9DD5-F6D520C32AA3"
+    },
+    {
+      "name": "Razor Language Services",
+      "vsixId": "Microsoft.VisualStudio.RazorExtension"
+    },
+    {
+      "name": "Redgate SQL Change Automation Core",
+      "vsixId": "ReadyRoll.Redgate.C6DA5CFB-AF31-4107-8E82-522EE0B39886"
+    },
+    {
+      "name": "Registry Explorer",
+      "vsixId": "29464950-087c-4fb6-9fdd-bab0fb71d68f"
+    },
+    {
+      "name": "Reset Zoom",
+      "vsixId": "0a987da3-4577-4eec-aaa9-a4c2cdd5d22b"
+    },
+    {
+      "name": "Roslynator 2017",
+      "vsixId": "9289a8ab-1bb6-496b-9992-9f7ea27f66a8"
+    },
+    {
+      "name": "Roslynator Refactorings 2017",
+      "vsixId": "0117e993-633f-47ea-be07-c0620e5a6788"
+    },
+    {
+      "name": "SQL Prompt Core",
+      "vsixId": "885df752-601a-4f20-8c50-338753b267b0"
+    },
+    {
+      "name": "SQL Search",
+      "vsixId": "Redgate.SQLSearch.VSExtension.9BD7AEDA-C291-4702-8191-4189B099F3A9"
+    },
+    {
+      "name": "SQLite/SQL Server Compact Toolbox",
+      "vsixId": "41521019-e4c7-480c-8ea8-fc4a2c6f50aa"
+    },
+    {
+      "name": "Syntax Highlighting Pack",
+      "vsixId": "4773ce75-6f30-4269-9557-1f7c30a47be2"
+    },
+    {
+      "name": "T4 Toolbox for Visual Studio 2017",
+      "vsixId": "T4Toolbox.15"
+    },
+    {
+      "name": "Template Creator",
+      "vsixId": "49719076-63de-4191-8f25-470f5fb3b6cb"
+    },
+    {
+      "name": "Time Stamp Margin",
+      "vsixId": "TimeStampMargin.255e8b14-4a53-4eb7-89a7-7ab741c1f612"
+    },
+    {
+      "name": "Trailing Whitespace Visualizer",
+      "vsixId": "4c1a78e6-e7b8-4aa9-8812-4836e051ff6d"
+    },
+    {
+      "name": "Typewriter",
+      "vsixId": "45b6b392-ce2f-409c-a39f-bbf90b34349e"
+    },
+    {
+      "name": "Visual Studio IntelliCode - Preview",
+      "vsixId": "IntelliCode.VSIX.598224b2-b987-401b-8509-f568d0c0b946"
+    },
+    {
+      "name": "Visual Studio Spell Checker (VS2017 and Later)",
+      "vsixId": "43EA967E-0DE2-4136-8E52-C6DCFB5C2748"
+    },
+    {
+      "name": "Vue.js Pack 2017",
+      "vsixId": "4163aa08-9878-4b1c-a1ee-58ab67f7db5b"
+    },
+    {
+      "name": "Web Accessibility Checker",
+      "vsixId": "25a79d25-0fff-4748-afaa-3a67ed116bc9"
+    },
+    {
+      "name": "Web Compiler",
+      "vsixId": "148ffa77-d70a-407f-892b-9ee542346862"
+    },
+    {
+      "name": "Web Essentials 2017",
+      "vsixId": "bb7e2273-9a70-4e5e-b4dd-1f361b6166c0"
+    },
+    {
+      "name": "ZenCoding",
+      "vsixId": "9514d70e-a7b1-4876-847d-b0d2ad0962bf"
+    },
+    {
+      "name": "Visual Studio Tools for Kubernetes",
+      "vsixId": "Microsoft.VisualStudio.Kubernetes.Tools"
+    }
+  ]
+}

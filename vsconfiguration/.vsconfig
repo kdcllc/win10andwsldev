@@ -1,0 +1,31 @@
+{
+	"version": "1.0",
+	"components": [
+		"Microsoft.VisualStudio.Workload.ManagedDesktop",
+		"Microsoft.VisualStudio.Workload.NetWeb",
+		"Microsoft.VisualStudio.Workload.Azure",
+		"Microsoft.VisualStudio.Workload.Python",
+		"Microsoft.VisualStudio.Workload.Node",
+		"Microsoft.VisualStudio.Workload.VisualStudioExtension",
+		"Microsoft.VisualStudio.Workload.NetCoreTools",
+		"microsoft.net.componentgroup.targetingpacks.common",
+		"microsoft.componentgroup.blend",
+		"microsoft.visualstudio.component.entityframework",
+		"microsoft.visualstudio.component.debugger.justintime",
+		"microsoft.visualstudio.component.liveunittesting",
+		"component.microsoft.visualstudio.liveshare",
+		"microsoft.visualstudio.component.wcf.tooling",
+		"microsoft.visualstudio.component.appinsights.tools",
+		"microsoft.visualstudio.componentgroup.web.cloudtools",
+		"microsoft.visualstudio.component.aspnet45",
+		"microsoft.component.azure.datalake.tools",
+		"microsoft.visualstudio.componentgroup.azure.resourcemanager.tools",
+		"microsoft.visualstudio.componentgroup.azure.cloudservices",
+		"microsoft.visualstudio.component.azure.mobileappssdk",
+		"microsoft.visualstudio.component.azure.servicefabric.tools",
+		"microsoft.component.cookiecuttertools",
+		"microsoft.component.pythontools.web",
+		"component.cpython3.x64",
+		"component.e83d71b8-8bfc-4e06-b145-b0388910c016"
+	]
+}
