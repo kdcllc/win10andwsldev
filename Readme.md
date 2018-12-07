@@ -33,3 +33,7 @@ For example, I installed `Git` but I also now need to install `Git` on WSL as we
 
 - [Setup Windows 10](./win10-dev-tools.md)
 - [Setup WSL](./wsl-dev-tools.md)
+
+## Issues resolution
+
+- [VS.NET and Docker SSl not finding Certificate Fix](./vsnet-docker-ssl-issue.md)
