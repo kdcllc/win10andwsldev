@@ -1,7 +1,7 @@
 # Visual Studio.NET and Docker issue with SSL Certificates
 
-Docker -> Volume -> `%APPDATA%\ASP.NET\Https\{projectName}.pfx` 
-Docker -> Volume -> `%APPDATA%\Microsoft\UserSecrets\<user_secrets_id>\secrets.json`
+1. Docker -> Volume -> `%APPDATA%\ASP.NET\Https\{projectName}.pfx` 
+2. Docker -> Volume -> `%APPDATA%\Microsoft\UserSecrets\<user_secrets_id>\secrets.json`
 
 Projects must contains `UserSecretsId` element with unique ID which in turned is used to Encrypt the `.pfx` file and corresponds to proper `secrets.json` location. 
 
