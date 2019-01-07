@@ -106,3 +106,9 @@ Or use manual delete of the following:
   ```
 - [7-zip.org](https://www.7-zip.org/download.html)
 - [Unblock downloaded PowerShell scripts](https://social.technet.microsoft.com/wiki/contents/articles/38496.unblock-downloaded-powershell-scripts.aspx?Redirected=true)
+- [Ditto Clipboard Manager](https://ditto-cp.sourceforge.io/)
+- [Keypirinha Program Launcher](http://keypirinha.com/)
+```cmd
+    choco install keypirinha
+```
+- x
