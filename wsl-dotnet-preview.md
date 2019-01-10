@@ -57,7 +57,16 @@ Add the following into `~/.bashrc`
     && rm -f dotnet.tar.gz
 
 ```
+## Install .NET Core SDK 2.2.101
 
+```bash
+   export DOTNET_SDK_VERSION=2.2.101
+    curl -SL --output dotnet.tar.gz https://download.visualstudio.microsoft.com/download/pr/80e1d007-d6f0-402f-b047-779464dd989b/9ae5e2df9aa166b720bdb92d19977044/dotnet-sdk-$DOTNET_SDK_VERSION-linux-x64.tar.gz \
+    && dotnet_sha512='7D0235469287D55B87AA68FDD8CCE51D2F35FDCCE485701EBF14B53E3AE0A341CDAB8D04AAE066F5E4EBD1BCA7A55C18016DEC4643DE72FD2321FE81C9CB69CD' \
+    && echo "$dotnet_sha512 dotnet.tar.gz" | sha512sum -c - \
+    && tar -zxf dotnet.tar.gz -C $HOME/dotnet \
+    && rm -f dotnet.tar.gz
+```
 ## Install .NET Core SDK 2.2 Preview
 
 ```bash
