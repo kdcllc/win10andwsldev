@@ -111,4 +111,4 @@ Or use manual delete of the following:
 ```cmd
     choco install keypirinha
 ```
-- x
+- [Powershell Script To Remove .NET Core Sdks](./RemoveCoreSDKs.ps1)

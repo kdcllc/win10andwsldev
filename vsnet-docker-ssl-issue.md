@@ -7,7 +7,7 @@ Projects must contains `UserSecretsId` element with unique ID which in turned is
 
 Run [dotnet-core-docker-ssl-fix.ps1](./dotnet-core-docker-ssl-fix.ps1)  with the following to fix the issue:
 ```ps
-    .\vs-fix.ps1 -docker  -project C:\Dev\Projects\TestMvCProj2\TestMvCProj2.csproj
+    .\dotnet-core-docker-ssl-fix.ps1 -docker  -project C:\Dev\Projects\TestMvCProj2\TestMvCProj2.csproj
 ```
 
 The following is added or updated based on the `UserSecretsId` in secret.json.
