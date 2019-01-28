@@ -19,3 +19,22 @@ The following is added or updated based on the `UserSecretsId` in secret.json.
 ```
 
 In addition the certificate is regenerated with new password `{UserSecretsId}` Id.
+
+> dotnet dev-certs https -ep C:\Users\{user}\AppData\Roaming\ASP.NET\Https\Chavah.NetCore.pfx -p 4ce265ef-8194-409f-b691-39b3d107ffd1
+
+
+%APPDATA%\Microsoft\UserSecrets
+%APPDATA%\ASP.NET
+
+Manage Secreate to update to
+```json
+    "Kestrel:Certificates:Development:Password": "180e7ef9-d46a-4bed-a940-8717061b2b6f",
+    "Kestrel": {
+        "Certificates": {
+            "Default": {
+                "Path": "/root/.aspnet/https/{Name}.pfx",
+                "Password": "180e7ef9-d46a-4bed-a940-8717061b2b6f"
+            }
+        }
+    }
+```
