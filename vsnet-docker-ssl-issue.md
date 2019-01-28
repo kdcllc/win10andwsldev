@@ -20,7 +20,7 @@ The following is added or updated based on the `UserSecretsId` in secret.json.
 
 In addition the certificate is regenerated with new password `{UserSecretsId}` Id.
 
-> dotnet dev-certs https -ep C:\Users\{user}\AppData\Roaming\ASP.NET\Https\Chavah.NetCore.pfx -p 4ce265ef-8194-409f-b691-39b3d107ffd1
+> dotnet dev-certs https -ep C:\Users\{user}\AppData\Roaming\ASP.NET\Https\{Name}.pfx -p 4ce265ef-8194-409f-b691-39b3d107ffd1
 
 
 %APPDATA%\Microsoft\UserSecrets
