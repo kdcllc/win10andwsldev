@@ -57,49 +57,36 @@ Add the following into `~/.bashrc`
     && rm -f dotnet.tar.gz
 
 ```
-## Install .NET Core SDK 2.2.101
+## Install .NET Core SDKs
+
+1. Retrieve sha hash from 
+    >https://dotnetcli.blob.core.windows.net/dotnet/checksums/${DOTNET_SDK_VERSION}-sdk-sha.txt
+
+2. Update environment variables and run the `curl` command
 
 ```bash
-   export DOTNET_SDK_VERSION=2.2.101
-    curl -SL --output dotnet.tar.gz https://download.visualstudio.microsoft.com/download/pr/80e1d007-d6f0-402f-b047-779464dd989b/9ae5e2df9aa166b720bdb92d19977044/dotnet-sdk-$DOTNET_SDK_VERSION-linux-x64.tar.gz \
-    && dotnet_sha512='7D0235469287D55B87AA68FDD8CCE51D2F35FDCCE485701EBF14B53E3AE0A341CDAB8D04AAE066F5E4EBD1BCA7A55C18016DEC4643DE72FD2321FE81C9CB69CD' \
-    && echo "$dotnet_sha512 dotnet.tar.gz" | sha512sum -c - \
-    && tar -zxf dotnet.tar.gz -C $HOME/dotnet \
-    && rm -f dotnet.tar.gz
-```
-## Install .NET Core SDK 2.2 Preview
+    #https://dotnetcli.blob.core.windows.net/dotnet/checksums/${DOTNET_SDK_VERSION}-sdk-sha.txt
 
-```bash
+    export DOTNET_SDK_VERSION=3.0.100-preview-010184
+    export DOTNET_SHA='DBEFE65B5409A8FCCD5E150560073A0487159016AC52A98EC460EE161A77E63B86E10548E45F3166F1FAF38FA9CF805B6F469DD75F2F008E5E769776C8B63777'
 
-    #https://dotnetcli.blob.core.windows.net/dotnet/checksums/2.2.100-preview3-009430-sdk-sha.txt
-    export DOTNET_SDK_VERSION=2.2.100-preview3-009430
+    #export DOTNET_SDK_VERSION=3.0.100-preview-009812
+    #export DOTNET_SHA='109E2EA82350DFAC79ED0D5A3FD56B22BD78269AE7099ED288A7893DF4B24DB6E5A7934F4764A5763D3F0777FE8E51A8F2454EA1055700D62111B396FA5E8B39'
+
+    export DOTNET_SDK_VERSION=2.2.103
+    export DOTNET_SHA='777ac6dcd0200ba447392e451a1779f0fbfa548bd620a7bba3eebdf35892236c3f10b19ff81d4f64b5bc134923cb47f9cc45ee6b004140e1249582249944db69'
     
-    curl -SL --output dotnet.tar.gz https://dotnetcli.blob.core.windows.net/dotnet/Sdk/$DOTNET_SDK_VERSION/dotnet-sdk-$DOTNET_SDK_VERSION-linux-x64.tar.gz \
-    && dotnet_sha512='c74aeec0e141711359e4af0785fa3af457949783233ad07e7afea2f98f34ddfbf9ced56fb29a92b5350381c4698a4fae09865af9ee03ef24195ec659e852a089' \
-    && echo "$dotnet_sha512 dotnet.tar.gz" | sha512sum -c - \
-    && mkdir -p $HOME/dotnet \
-    && tar -zxf dotnet.tar.gz -C $HOME/dotnet \
-    && rm -f dotnet.tar.gz \
-    && echo "export DOTNET_ROOT=$HOME/dotnet " >> ~/.bashrc \
-    && source ~/.bashrc
+    # export DOTNET_SDK_VERSION=2.2.101
+    # export DOTNET_SHA='7D0235469287D55B87AA68FDD8CCE51D2F35FDCCE485701EBF14B53E3AE0A341CDAB8D04AAE066F5E4EBD1BCA7A55C18016DEC4643DE72FD2321FE81C9CB69CD'
 
-```
-
-## Install .NET Core SDK 3.0.100-preview-009812
-
-```bash
-
-    #https://dotnetcli.blob.core.windows.net/dotnet/checksums/3.0.100-preview-009812-sdk-sha.txt
-
-    export DOTNET_SDK_VERSION=3.0.100-preview-009812
+    # export DOTNET_SDK_VERSION=2.2.100-preview3-009430
+    # export DOTNET_SHA = 'c74aeec0e141711359e4af0785fa3af457949783233ad07e7afea2f98f34ddfbf9ced56fb29a92b5350381c4698a4fae09865af9ee03ef24195ec659e852a089'
 
     curl -SL --output dotnet.tar.gz https://dotnetcli.blob.core.windows.net/dotnet/Sdk/$DOTNET_SDK_VERSION/dotnet-sdk-$DOTNET_SDK_VERSION-linux-x64.tar.gz \
-    && dotnet_sha512='109E2EA82350DFAC79ED0D5A3FD56B22BD78269AE7099ED288A7893DF4B24DB6E5A7934F4764A5763D3F0777FE8E51A8F2454EA1055700D62111B396FA5E8B39' \
+    && dotnet_sha512=$DOTNET_SHA \
     && echo "$dotnet_sha512 dotnet.tar.gz" | sha512sum -c - \
-    && mkdir -p $HOME/dotnet \
     && tar -zxf dotnet.tar.gz -C $HOME/dotnet \
     && rm -f dotnet.tar.gz
-
 ```
 
 ## [Installing Microsoft Artifacts Cred Provider](https://github.com/Microsoft/artifacts-credprovider)
