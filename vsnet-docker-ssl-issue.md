@@ -41,6 +41,3 @@ In addition the certificate is regenerated with new password `{UserSecretsId}` I
 ```cmd
     dotnet dev-certs https -ep C:\Users\<user>\AppData\Roaming\ASP.NET\Https\<project_name>.pfx -p <user_secrets_id>
 ```
-
-
-
