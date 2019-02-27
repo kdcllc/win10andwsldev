@@ -60,7 +60,7 @@ Open-source tooling is changing constantly and some of the legacy application ar
 
 - [Install Extension Manager](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ExtensionManager) this extension allows import/export functionality.
 
-- Download and install extensions with this file [extensions.vsext](https://gist.githubusercontent.com/kdcllc/23670c0a73de3ae880bbb2dc969e2356/raw/d614cdfec60cdb0f41893e1daace7122f327116f/extensions.vsext)
+- Download and install extensions with this file [extensions2017.vsext](https://gist.githubusercontent.com/kdcllc/23670c0a73de3ae880bbb2dc969e2356/raw/d614cdfec60cdb0f41893e1daace7122f327116f/extensions2017.vsext)
 
 - [Add and Configure Azure Nuget Custom Feed](./azure-nuget-feed.md)
 
