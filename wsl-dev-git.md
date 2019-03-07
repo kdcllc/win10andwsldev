@@ -1,6 +1,7 @@
-# WSL Git Installation and Configuration
+# Windows Subsystem Linux (WSL) Git Installation and Configuration
 
-The purpose of this document is to provide step by step specification of installing and configuring `Git` on WSL.
+The purpose of this document is to provide step by step guidance for installing and configuring `Git` on WSL.
+
 Tools like Visual Studio Code or Visual Studio.NET will be using Windows 10 `git`.
 We can setup Visual Studio Code command prompt to use `bash.exe` of the WSL.
 Windows `Git` provides with Credential caching and doesn't require to be login.
@@ -61,12 +62,4 @@ Windows `Git` provides with Credential caching and doesn't require to be login.
 
     # Add the certificate to the agent
      ssh-add ~/.ssh/id_rsa
-```
-
-- [Add Key to GitHub])()
-
-Copy SSH Key
-```bash
-    #linux
-    cat ~/.ssh/id_rsa
 ```

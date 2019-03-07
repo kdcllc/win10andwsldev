@@ -1,10 +1,8 @@
-# Windows Subsystem Linux Developers' tools installations
+# Windows Subsystem Linux Web Developers' essentials tools installations
 
 1. [Install and Configure Git](./wsl-dev-git.md)
 
-2. Install .NET Core SDK
-    - [Install with `apt-get`]](./wsl-dev-dotnetcore.md)
-    - [Install Previews](./wsl-dotnet-preview.md)
+2. [Install .NET Core SDK](./wsl-dev-dotnetcore.md)
 
 3. Install WSL build essential
 
@@ -31,18 +29,23 @@
 7. Install Python
 
 ```bash
-sudo apt-get install -y python && \
-sudo apt install python3 && \
-echo "alias python='python3'" >> ~/.bashrc && \
-source ~/.bashrc
+    sudo apt-get install -y python && \
+    sudo apt install python3 && \
+    echo "alias python='python3'" >> ~/.bashrc && \
+    source ~/.bashrc
 ```
 
 8. [Install Azure CLI with apt](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-apt?view=azure-cli-latest)
-Or Script
+
+- Or Script
+
 ```bash
     # requires python 2.7
     curl -L https://aka.ms/InstallAzureCli | bash
 ```
+
+9. [Install Go Lang Bash Script](./wsl-go-install.sh)
+
 
 ## Clean up WSL
 
