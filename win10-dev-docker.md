@@ -41,4 +41,3 @@ Check `Expose daemon on tcp://localhost:2375 without TLS`
 ```
 
 [http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/overview?namespace=default](http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/overview?namespace=default)
-

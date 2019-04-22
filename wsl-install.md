@@ -19,7 +19,7 @@ There are two ways this can be accomplished, manually or automated thru use of p
 `-y` flag supply `YES` answer to the upgrade.
 
 ```bash
-    sudo apt-get update 
+    sudo apt-get update
     sudo apt-get -y upgrade
 
     #correct the problem if occurred
