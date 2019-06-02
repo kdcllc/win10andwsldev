@@ -54,3 +54,11 @@ This is helpful in order to copy `AspNetCore` web applications.
 ```
 
 (note: I was able to access this folder by going to `\\{ipaddress}\pishare`)
+
+## Python SimpleHTTPServer: a quick way to serve a directory
+
+```bash 
+    python -m SimpleHTTPServer 8080
+
+    python3 -m http.server 8080
+```
