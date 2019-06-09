@@ -1,5 +1,5 @@
 {
-  "id": "20f93ab1-6237-4a0f-8268-d4041b56315a",
+  "id": "ffcf1f67-422f-4933-b43f-6a8a52ceac96",
   "name": "My Visual Studio extensions",
   "description": "A collection of my Visual Studio extensions",
   "version": "1.0",
@@ -17,12 +17,16 @@
       "vsixId": "AlignAssignments.41858b2d-ff0b-4a43-80b0-f1b2d6084935"
     },
     {
-      "name": "ASP.NET Core Blazor Language Services",
-      "vsixId": "Microsoft.VisualStudio.BlazorExtension"
-    },
-    {
       "name": "Assembly Load Debugger",
       "vsixId": "34f00824-cb6a-4bc1-a27d-7375239cdd2f"
+    },
+    {
+      "name": "Azure Data Lake and Stream Analytics Tools",
+      "vsixId": "1e906ff5-9da8-4091-a299-5c253c55fdc9"
+    },
+    {
+      "name": "Blazor",
+      "vsixId": "Microsoft.VisualStudio.BlazorExtension"
     },
     {
       "name": "Browser Reload on Save",
@@ -63,6 +67,10 @@
     {
       "name": "CSS Sorter",
       "vsixId": "87534672-5a41-4ea1-a145-17f1a8f5502a"
+    },
+    {
+      "name": "CSS Tools 2019",
+      "vsixId": "1c63270f-485d-4810-99b8-e9d9de82610c"
     },
     {
       "name": "Double-Click Maximize",
@@ -141,6 +149,10 @@
       "vsixId": "c38f3512-4653-4d97-a4c5-860a425209f5"
     },
     {
+      "name": "Live Share",
+      "vsixId": "Microsoft.VisualStudio.LiveShare"
+    },
+    {
       "name": "Markdown Editor",
       "vsixId": "9ca64947-e9ca-4543-bfb8-6cce9be19fd6"
     },
@@ -151,6 +163,10 @@
     {
       "name": "Middle Click Scroll",
       "vsixId": "MiddleClickScroll.263a3239-a004-40e6-b790-4fd371832c85"
+    },
+    {
+      "name": "ML.NET Model Builder (Preview)",
+      "vsixId": "FE96D051-645F-4309-AE99-107A776B0DA2"
     },
     {
       "name": "Open Command Line",
@@ -189,12 +205,12 @@
       "vsixId": "ProductivityPowerPack.0d5b9d71-e118-46de-a20c-555176e53900"
     },
     {
-      "name": "Project File Tools",
-      "vsixId": "e22f3d7e-6b01-4ef8-b3cb-ea293a87b00e"
-    },
-    {
       "name": "Project System Tools",
       "vsixId": "B6213233-1C34-4F76-9DD5-F6D520C32AA3"
+    },
+    {
+      "name": "Pull Requests for Visual Studio",
+      "vsixId": "Microsoft.VisualStudio.RichReview"
     },
     {
       "name": "Quick Launch Tasks",
@@ -249,16 +265,20 @@
       "vsixId": "4c1a78e6-e7b8-4aa9-8812-4836e051ff6d"
     },
     {
-      "name": "Visual Studio IntelliCode - Preview",
+      "name": "Typewriter",
+      "vsixId": "45b6b392-ce2f-409c-a39f-bbf90b34349e"
+    },
+    {
+      "name": "Visual Studio Container Tools Extensions (Preview)",
+      "vsixId": "Microsoft.VisualStudio.Containers.Tools.Extensions"
+    },
+    {
+      "name": "Visual Studio IntelliCode",
       "vsixId": "IntelliCode.VSIX.598224b2-b987-401b-8509-f568d0c0b946"
     },
     {
       "name": "Visual Studio Spell Checker (VS2017 and Later)",
       "vsixId": "43EA967E-0DE2-4136-8E52-C6DCFB5C2748"
-    },
-    {
-      "name": "VS Live Share - Preview",
-      "vsixId": "Microsoft.VisualStudio.LiveShare"
     },
     {
       "name": "VSCT IntelliSense",
