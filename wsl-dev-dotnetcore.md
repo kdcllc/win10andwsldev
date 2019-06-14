@@ -83,8 +83,11 @@ sudo apt-get update \
 ```bash
     #https://dotnetcli.blob.core.windows.net/dotnet/checksums/${DOTNET_SDK_VERSION}-sdk-sha.txt
 
-    export DOTNET_SDK_VERSION=3.0.100-preview5-011568
-    export DOTNET_SHA='207AF1F3161CBD0864902370475FCAD5B500BF2B7199B06445E7C338053BC7CB0157EE1B4D00A37A351EAE6E209417EE4A15EEACEE086AAC0AC1BE7A62F3AD0B'
+    export DOTNET_SDK_VERSION=3.0.100-preview6-012264 &&
+    export DOTNET_SHA='047E295F3D7D4C590C906334EC28B844BEF90C2B3FEFE395A23E37E2A7D13955A11CBCF2FC2EE9FFCFD6FD44CEDE4ECD72A6B92258F568D5B328AD46BF0A7BB8'
+
+    # export DOTNET_SDK_VERSION=3.0.100-preview5-011568
+    # export DOTNET_SHA='207AF1F3161CBD0864902370475FCAD5B500BF2B7199B06445E7C338053BC7CB0157EE1B4D00A37A351EAE6E209417EE4A15EEACEE086AAC0AC1BE7A62F3AD0B'
 
     # export DOTNET_SDK_VERSION=3.0.100-preview4-011223
     # export DOTNET_SHA='B416DD4014AD62C7D19413C44738F1CC6152C94570C31DC953BE16BFEADECF449B2AAB7ECC09C9D3FCD12B2D440F281A0C8F1AD0635BC035ADB34C26F8D1E2AE'
@@ -133,34 +136,37 @@ sudo apt-get update \
 ```bash
     sudo apt-get remove dotnet-host
 
-    export DOTNET_VERSION=2.2.103
-    sudo rm -rf /usr/share/dotnet/sdk/$DOTNET_VERSION &&
-    sudo rm -rf /usr/share/dotnet/shared/Microsoft.NETCore.App/$DOTNET_VERSION &&
-    sudo rm -rf /usr/share/dotnet/shared/Microsoft.AspNetCore.App/$DOTNET_VERSION &&
-    sudo rm -rf /usr/share/dotnet/host/fxr/$DOTNET_VERSION
+    export DOTNET_SDK_VERSION=2.2.103
+    sudo rm -rf /usr/share/dotnet/sdk/$DOTNET_SDK_VERSION &&
+    sudo rm -rf /usr/share/dotnet/shared/Microsoft.NETCore.App/$DOTNET_SDK_VERSION &&
+    sudo rm -rf /usr/share/dotnet/shared/Microsoft.AspNetCore.App/$DOTNET_SDK_VERSION &&
+    sudo rm -rf /usr/share/dotnet/host/fxr/$DOTNET_SDK_VERSION
 ```
 
 2. Remove from manually installed:
 
 ```bash
-    export DOTNET_VERSION=3.0.100-preview3-010431
+    # 3.0.100-preview3-010431
+    # 3.0.100-preview4-011223
+    # 3.0.100-preview5-011568
+    export DOTNET_SDK_VERSION=3.0.100-preview5-011568 &&
+    sudo rm -rf ~/dotnet/sdk/$DOTNET_SDK_VERSION &&
+    sudo rm -rf ~/dotnet/shared/Microsoft.NETCore.App/$DOTNET_SDK_VERSION &&
+    sudo rm -rf ~/dotnet/shared/Microsoft.AspNetCore.App/$DOTNET_SDK_VERSION &&
+    sudo rm -rf ~/dotnet/shared/Microsoft.AspNetCore.All/$DOTNET_SDK_VERSION &&
+    sudo rm -rf ~/dotnet/host/fxr/$DOTNET_SDK_VERSION
 
-    sudo rm -rf ~/dotnet/sdk/$DOTNET_VERSION &&
-    sudo rm -rf ~/dotnet/shared/Microsoft.NETCore.App/$DOTNET_VERSION &&
-    sudo rm -rf ~/dotnet/shared/Microsoft.AspNetCore.App/$DOTNET_VERSION &&
-    sudo rm -rf ~/dotnet/shared/Microsoft.AspNetCore.All/$DOTNET_VERSION &&
-    sudo rm -rf ~/dotnet/host/fxr/$DOTNET_VERSION
+    # 3.0.0-preview3-19153-02
+    # 3.0.0-preview4-19216-0
+    # 3.0.0-preview5-19227-01
+    export  DOTNET_ASPNET_APP=3.0.0-preview5-19227-01 &&
+    sudo rm -rf ~/dotnet/shared/Microsoft.AspNetCore.App/$DOTNET_ASPNET_APP
 
-    ## cleared other
-    sudo rm -rf ~/dotnet/host/fxr/3.0.0-preview-27122-01 &&
-    sudo rm -rf ~/dotnet/host/fxr/3.0.0-preview-27324-5
-
-    sudo rm -rf ~/dotnet/shared/Microsoft.AspNetCore.All/2.2.0-preview3-35497
-
-    sudo rm -rf ~/dotnet/shared/Microsoft.AspNetCore.App/2.2.0-preview3-35497 &&
-    sudo rm -rf ~/dotnet/shared/Microsoft.AspNetCore.App/3.0.0-preview-18579-0056 &&
-    sudo rm -rf ~/dotnet/shared/Microsoft.AspNetCore.App/3.0.0-preview-19075-0444
-
-    sudo rm -rf ~/dotnet/shared/Microsoft.NETCore.App/3.0.0-preview-27122-01 &&
-    sudo rm -rf ~/dotnet/shared/Microsoft.NETCore.App/3.0.0-preview-27324-5
+    # 3.0.0-preview3-27503-5
+    # 3.0.0-preview4-27615-11
+    # 3.0.0-preview5-27626-15
+    export  DOTNET_APP=3.0.0-preview5-27626-15 &&
+    sudo rm -rf ~/dotnet/host/fxr/$DOTNET_APP &&
+    sudo rm -rf ~/dotnet/shared/Microsoft.NETCore.App/$DOTNET_APP
+   
 ```
