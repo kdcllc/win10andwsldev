@@ -41,3 +41,20 @@ In addition the certificate is regenerated with new password `{UserSecretsId}` I
 ```cmd
     dotnet dev-certs https -ep C:\Users\<user>\AppData\Roaming\ASP.NET\Https\<project_name>.pfx -p <user_secrets_id>
 ```
+
+## Update on Clean Visual Studio.NET 2019 and Windows 10 1093 edition
+
+The default installation of both had issues with local developer certificate.
+
+To fix execute
+
+```ps
+    dotnet dev-certs https --clean
+    dotnet dev-certs https --trust
+```
+
+## Microsoft official support for SSL issues
+
+- [Trust HTTPS certificate from Windows Subsystem for Linux](https://docs.microsoft.com/en-us/aspnet/core/security/enforcing-ssl?view=aspnetcore-2.2&tabs=visual-studio#trust-https-certificate-from-windows-subsystem-for-linux)
+
+-[Hosting ASP.NET Core Images with Docker over HTTPS](https://github.com/dotnet/dotnet-docker/blob/master/samples/aspnetapp/aspnetcore-docker-https.md)

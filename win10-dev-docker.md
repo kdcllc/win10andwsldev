@@ -6,8 +6,8 @@
 
 Check `Expose daemon on tcp://localhost:2375 without TLS`
 
-
 2. Enable Kubernetes
+
 - Check Enable Kubernetes
 - Deploy Docker Stack to Kubernetes by default
 - Check Kubernetes install
@@ -17,8 +17,8 @@ Check `Expose daemon on tcp://localhost:2375 without TLS`
 ```
 
 3. Shared Drives
-- Check all of the drives to be shared
 
+- Check all of the drives to be shared
 
 ## [Install and Configure Kubernetes Dashboard](https://github.com/kubernetes/dashboard)
 

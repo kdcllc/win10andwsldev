@@ -1,12 +1,6 @@
 # Installation of Docker and Kubernetes On the Desktop
 
-1. [Install Docker Daemon and Docker Compose](./wsl_docker_setup.sh)
-
-```bash
-    curl -o- https://raw.githubusercontent.com/kdcllc/wind10wsldev/master/wsl_docker_setup.sh | sudo bash
-```
-
- - Or follow the steps in this article [Setting Up Docker for Windows and WSL to Work Flawlessly](https://nickjanetakis.com/blog/setting-up-docker-for-windows-and-wsl-to-work-flawlessly)
+1. Install Docker Daemon and Docker Compose, I followed the steps in this article [Setting Up Docker for Windows and WSL to Work Flawlessly](https://nickjanetakis.com/blog/setting-up-docker-for-windows-and-wsl-to-work-flawlessly).
 
 2. Kubernetes
 

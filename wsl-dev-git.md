@@ -1,4 +1,4 @@
-# Windows Subsystem Linux (WSL) Git Installation and Configuration
+# Windows Subsystem Linux (WSL 1) Git Installation and Configuration
 
 The purpose of this document is to provide step by step guidance for installing and configuring `Git` on WSL.
 
@@ -18,12 +18,17 @@ Windows `Git` provides with Credential caching and doesn't require to be login.
 
 ## Global configurations
 
+[How to use GIT and other Linux tools in WSL on Windows](https://medium.com/faun/how-to-use-git-and-other-linux-tools-in-wsl-on-windows-4c0bffb68b35)
+
 ```bash
     git config --global user.email "info@kingdavidconsulting.com"
     git config --global user.name "kdcllc"
 
     # The core.autocrlf=input setting is pretty crucial. It can break things you install over git (like rbenv).
-    git config --global core.autocrlf input 
+    git config --global core.autocrlf input
+
+    # without using SSH
+    git config --global credential.helper cache
 ```
 
 ## Project based configurations
