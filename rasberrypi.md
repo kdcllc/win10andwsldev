@@ -62,3 +62,21 @@ This is helpful in order to copy `AspNetCore` web applications.
 
     python3 -m http.server 8080
 ```
+
+## copy files
+
+```bash
+    scp /path/to/file username@a:/path/to/destination
+```
+
+## Check External IP address
+
+```bash
+    wget http://ipinfo.io/ip -qO -
+```
+
+```
+sudo systemctl unmask hostapd
+sudo systemctl enable hostapd
+sudo systemctl start hostapd
+```

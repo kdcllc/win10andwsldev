@@ -156,6 +156,8 @@ Or use manual delete of the following:
 - [Keypirinha Program Launcher](http://keypirinha.com/)
 - [f.lux](https://justgetflux.com/news/pages/v4/welcome/#download)
 - [Rufus Create bootable USB drives the easy way](https://github.com/pbatard/rufus)
+- [Azure Storage Explorer](https://azure.microsoft.com/en-us/features/storage-explorer/)
+- [Azure Data Studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-ver15) can be a replacement for Microsoft SQL Management Studio.
 
 ```cmd
     choco install keypirinha
