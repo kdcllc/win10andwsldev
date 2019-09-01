@@ -2,7 +2,9 @@
 
 There are two ways this can be accomplished, manually or automated thru use of powershell script.
 
-## Manual Steps
+## [Installing Docker Desktop WSL 2 Tech Preview](./win10-wsl2-docker-preview.md)
+
+## Docker VM Manual Installation Steps
 
 1. Open Powershell `Run as Administrator` and run this script to enable WSL as mentioned [here](https://aka.ms/wslinstall):
 
