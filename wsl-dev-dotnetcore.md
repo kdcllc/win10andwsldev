@@ -20,6 +20,13 @@ sudo apt-get update
 sudo apt-get install dotnet-sdk-2.1
 ```
 
+## Installing with a script
+
+[dotnet-install scripts reference](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-install-script)
+
+```bash
+    curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --version 3.0.100
+```
 
 ## Installing and running several versions of .NET Core SDK on Windows Linux Subsystem (WSL)
 

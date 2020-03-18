@@ -1,5 +1,5 @@
 {
-  "id": "5a5dfbe8-3ed9-46da-a905-7aef2eba24fb",
+  "id": "3d5bc69b-d0a0-41ac-a366-28c6bffe162e",
   "name": "My Visual Studio extensions",
   "description": "A collection of my Visual Studio extensions",
   "version": "1.0",
@@ -7,6 +7,14 @@
     {
       "name": ".ignore",
       "vsixId": "7ac24965-ea21-4108-9cac-6e46394aaaef"
+    },
+    {
+      "name": "Microsoft DevSkim",
+      "vsixId": "DevSkim"
+    },
+    {
+      "name": ".NET Portability Analyzer",
+      "vsixId": "55d15546-28ca-40dc-af23-dfa503e9c5fe"
     },
     {
       "name": "Add New File",
@@ -57,8 +65,8 @@
       "vsixId": "Microsoft.VisualStudio.CloudExplorer"
     },
     {
-      "name": "CodeMaid",
-      "vsixId": "4c82e17d-927e-42d2-8460-b473ac7df316"
+      "name": "Code Converter C# to/from VB.NET",
+      "vsixId": "7e2a69d6-193b-4cdf-878d-3370d5931942"
     },
     {
       "name": "Command Explorer",
@@ -109,12 +117,12 @@
       "vsixId": "f613e37-c9b4-4e49-b61f-0cf036ca76d6"
     },
     {
-      "name": "Extensibility Tools",
-      "vsixId": "f8330d54-0469-43a7-8fc0-7f19febeb897"
+      "name": "Extensibility Logs",
+      "vsixId": "595c271e-e4b3-40ea-9ef7-1138f49b529c"
     },
     {
-      "name": "Extension Manager 2017",
-      "vsixId": "e83d71b8-8bfc-4e06-b145-b0388910c016"
+      "name": "Extensibility Tools",
+      "vsixId": "f8330d54-0469-43a7-8fc0-7f19febeb897"
     },
     {
       "name": "File Differ",
@@ -173,11 +181,7 @@
       "vsixId": "4db2d63d-3320-4fbd-bf80-07f8d1500bd3"
     },
     {
-      "name": "Microsoft DevSkim",
-      "vsixId": "DevSkim"
-    },
-    {
-      "name": "Microsoft Rdlc Report Designer for Visual Studio",
+      "name": "Microsoft RDLC Report Designer",
       "vsixId": "617ad572-c5b7-415c-b166-b2969077f719"
     },
     {
@@ -225,6 +229,14 @@
       "vsixId": "PasteR..5f7b47b4-c3d1-4252-bc32-ed92bbb93a8d"
     },
     {
+      "name": "Progress Telerik UI for ASP.NET AJAX Extension",
+      "vsixId": "057d8865-d4bb-46e8-b71e-e24fed08f4b9"
+    },
+    {
+      "name": "Progress Telerik UI for ASP.NET MVC Extension",
+      "vsixId": "ffaa2f1b-f595-4b73-88f8-08003a3ba985"
+    },
+    {
       "name": "Project File Tools",
       "vsixId": "e22f3d7e-6b01-4ef8-b3cb-ea293a87b00e"
     },
@@ -237,7 +249,7 @@
       "vsixId": "Microsoft.VisualStudio.RazorExtension"
     },
     {
-      "name": "Redgate SQL Change Automation Core",
+      "name": "Redgate SQL Change Automation",
       "vsixId": "ReadyRoll.Redgate.C6DA5CFB-AF31-4107-8E82-522EE0B39886"
     },
     {
@@ -257,16 +269,16 @@
       "vsixId": "0117e993-633f-47ea-be07-c0620e5a6788"
     },
     {
+      "name": "Settings Store Explorer",
+      "vsixId": "SettingsStoreExplorer.4e51ef4d-4a0b-46d2-8230-8881625af1a2"
+    },
+    {
       "name": "Sharpen",
       "vsixId": "Ironcev.Sharpen"
     },
     {
-      "name": "SQL Prompt Core",
-      "vsixId": "885df752-601a-4f20-8c50-338753b267b0"
-    },
-    {
-      "name": "SQL Search",
-      "vsixId": "Redgate.SQLSearch.VSExtension.9BD7AEDA-C291-4702-8191-4189B099F3A9"
+      "name": "SlowCheetah",
+      "vsixId": "9eb9f150-fcc9-4db8-9e97-6aef2011017c"
     },
     {
       "name": "SQLite/SQL Server Compact Toolbox",
@@ -297,7 +309,7 @@
       "vsixId": "45b6b392-ce2f-409c-a39f-bbf90b34349e"
     },
     {
-      "name": "Visual Studio IntelliCode - Preview",
+      "name": "Visual Studio IntelliCode",
       "vsixId": "IntelliCode.VSIX.598224b2-b987-401b-8509-f568d0c0b946"
     },
     {

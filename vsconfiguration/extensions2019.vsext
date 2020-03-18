@@ -1,5 +1,5 @@
 {
-  "id": "ffcf1f67-422f-4933-b43f-6a8a52ceac96",
+  "id": "3528bd2d-7b7e-47b5-8c22-35d2eb3942b7",
   "name": "My Visual Studio extensions",
   "description": "A collection of my Visual Studio extensions",
   "version": "1.0",
@@ -7,6 +7,14 @@
     {
       "name": ".ignore",
       "vsixId": "7ac24965-ea21-4108-9cac-6e46394aaaef"
+    },
+    {
+      "name": "Microsoft DevSkim",
+      "vsixId": "DevSkim"
+    },
+    {
+      "name": ".NET Portability Analyzer",
+      "vsixId": "55d15546-28ca-40dc-af23-dfa503e9c5fe"
     },
     {
       "name": "Add New File",
@@ -23,10 +31,6 @@
     {
       "name": "Azure Data Lake and Stream Analytics Tools",
       "vsixId": "1e906ff5-9da8-4091-a299-5c253c55fdc9"
-    },
-    {
-      "name": "Blazor",
-      "vsixId": "Microsoft.VisualStudio.BlazorExtension"
     },
     {
       "name": "Browser Reload on Save",
@@ -53,12 +57,20 @@
       "vsixId": "Microsoft.VisualStudio.CloudExplorer.16.0"
     },
     {
+      "name": "Code Converter C# to/from VB.NET",
+      "vsixId": "7e2a69d6-193b-4cdf-878d-3370d5931942"
+    },
+    {
       "name": "Command Explorer",
       "vsixId": "1a973c52-a674-48d8-a276-65ddab1ac598"
     },
     {
       "name": "Comment Remover",
       "vsixId": "d7c3f904-cc5a-4d47-aa25-81fb7c36df89"
+    },
+    {
+      "name": "Configuration Transform",
+      "vsixId": "c347e8c1-66cb-475a-8eb4-a5a2018452fc"
     },
     {
       "name": "Copy As Html",
@@ -71,6 +83,10 @@
     {
       "name": "CSS Tools 2019",
       "vsixId": "1c63270f-485d-4810-99b8-e9d9de82610c"
+    },
+    {
+      "name": "Dapper Crud Generator",
+      "vsixId": "d7261d0b-5f95-456b-9b6a-b127d9afc8e4"
     },
     {
       "name": "Double-Click Maximize",
@@ -93,8 +109,8 @@
       "vsixId": "4c38fd13-e407-4da6-a7b2-a04346af8942"
     },
     {
-      "name": "Extension Manager 2019",
-      "vsixId": "4a196712-2c3f-4730-ad1d-e7cda4185eb2"
+      "name": "Extensibility Logs",
+      "vsixId": "595c271e-e4b3-40ea-9ef7-1138f49b529c"
     },
     {
       "name": "File Differ",
@@ -115,6 +131,10 @@
     {
       "name": "GitHub Extension for Visual Studio",
       "vsixId": "c3d3dc68-c977-411f-b3e8-03b0dccf7dfc"
+    },
+    {
+      "name": "Glyphfriend 2019",
+      "vsixId": "Glyphfriend.VS2019.RionWilliams.da26054d-2c11-4d71-87c2-a4fa188a09c2"
     },
     {
       "name": "ILSpy",
@@ -193,6 +213,10 @@
       "vsixId": "PeekHelp.51f43c96-8220-43bf-a922-390a361e7640"
     },
     {
+      "name": "Pkgdef Language",
+      "vsixId": "06278dd5-5d9d-4f27-a3e8-cd619b101a50"
+    },
+    {
       "name": "Power Commands for Visual Studio",
       "vsixId": "PowerCommands.3ecdd89b-f985-483d-8c94-be37de4dc083"
     },
@@ -229,12 +253,20 @@
       "vsixId": "d42db039-5432-4399-bb62-67a9b4c3b838"
     },
     {
+      "name": "Settings Store Explorer",
+      "vsixId": "SettingsStoreExplorer.4e51ef4d-4a0b-46d2-8230-8881625af1a2"
+    },
+    {
       "name": "Sharpen",
       "vsixId": "Ironcev.Sharpen"
     },
     {
       "name": "Shrink Empty Lines",
       "vsixId": "SyntacticLineCompression.4452fb8f-b348-49eb-9499-76669d3f9c75"
+    },
+    {
+      "name": "SlowCheetah",
+      "vsixId": "9eb9f150-fcc9-4db8-9e97-6aef2011017c"
     },
     {
       "name": "Solution Error Visualizer",
@@ -267,10 +299,6 @@
     {
       "name": "Typewriter",
       "vsixId": "45b6b392-ce2f-409c-a39f-bbf90b34349e"
-    },
-    {
-      "name": "Visual Studio Container Tools Extensions (Preview)",
-      "vsixId": "Microsoft.VisualStudio.Containers.Tools.Extensions"
     },
     {
       "name": "Visual Studio IntelliCode",

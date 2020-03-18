@@ -20,9 +20,9 @@
 
     dotnet-warp -l Aggressive
 ```
-
+- https://devblogs.microsoft.com/aspnet/httprepl-a-command-line-tool-for-interacting-with-restful-http-services/
 ```
-
+    dotnet tool install -g Microsoft.dotnet-httprepl --version "3.0.0-*
 ```
 ## Nuget
 
