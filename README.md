@@ -1,8 +1,8 @@
 # Windows 10 Linux Subsystem development setup
 
-This repo designed to provide a Guidance for Windows 10 Linux Subsystem (WSL) development. There are many ways to configure and create Web Development Environments this Guide attempts to address some of the common issues with configuration and installation.
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/kdcllc/win10andwsldev/master/LICENSE)
 
-It includes:
+I personally &#x1F9E1; Windows for my FullStack development, thus this repo was born to keep track of installation scripts and setup instructions with Windows 10 Linux Subsystem (WSL2) to enabled FullStack development.
 
 1. The Installation steps for WSL, Visual Studio.NET, VS Code, DotNet Framework.
 2. The scripts to install or configure Web Development environment.
@@ -10,11 +10,6 @@ It includes:
 Microsoft also released a repo with for setting up [Windows Dev Box Setup Scripts](https://github.com/Microsoft/windows-dev-box-setup-scripts).
 This option is useful if one desired to completely automate the process. It includes powershell script to automate WSL installation,
 [WSL Setup from powershell](https://github.com/Microsoft/windows-dev-box-setup-scripts/blob/master/scripts/WSL.ps1).
-
-## Development hardware
-
-[MSI PL60 Gamer Notebook (Intel i7-7500U, 32GB, 250GB SSD + 1TB HDD, NVIDIA GTX 1050 2GB, Killer AC Wifi, 15.6" Full HD IPS, Windows 10) ](https://www.amazon.com/gp/product/B073R3N5RC/ref=oh_aui_search_detailpage?ie=UTF8&psc=1). 
-This machine came with upgraded Solid State drive, but it is not large enough to use it for all of the installation, so location for the `User Profiles` is moved from `C:` drive to `D:` drive.
 
 ## Window 10 Professional Configuration steps
 

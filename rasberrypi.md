@@ -8,6 +8,7 @@
 ```
 
 ## Filesharing between Windows 10 and Raspberry  Pi
+
 One way to make sure that the files are shared between machines is to have `Samba` installed on Raspberry Pi.
 This is helpful in order to copy `AspNetCore` web applications. 
 

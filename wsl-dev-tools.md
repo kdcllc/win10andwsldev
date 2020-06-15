@@ -44,7 +44,7 @@
     curl -L https://aka.ms/InstallAzureCli | bash
 ```
 
-9. [Install Go Lang Bash Script](./wsl-go-install.sh)
+9. [Install Go Lang Bash Script](./scripts/wsl-go-install.sh)
 
 
 ## Clean up WSL
