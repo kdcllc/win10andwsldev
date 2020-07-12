@@ -1,5 +1,5 @@
 {
-  "id": "3528bd2d-7b7e-47b5-8c22-35d2eb3942b7",
+  "id": "71d85218-32c7-46cf-aa1f-53dc2edc18f7",
   "name": "My Visual Studio extensions",
   "description": "A collection of my Visual Studio extensions",
   "version": "1.0",
@@ -9,8 +9,8 @@
       "vsixId": "7ac24965-ea21-4108-9cac-6e46394aaaef"
     },
     {
-      "name": "Microsoft DevSkim",
-      "vsixId": "DevSkim"
+      "name": ".NET Core Debugging with WSL 2 - Preview",
+      "vsixId": "82e81c51-04b7-4681-91bb-87b6cf7c516b"
     },
     {
       "name": ".NET Portability Analyzer",
@@ -57,7 +57,7 @@
       "vsixId": "Microsoft.VisualStudio.CloudExplorer.16.0"
     },
     {
-      "name": "Code Converter C# to/from VB.NET",
+      "name": "Code Converter (VB - C#)",
       "vsixId": "7e2a69d6-193b-4cdf-878d-3370d5931942"
     },
     {
@@ -89,6 +89,10 @@
       "vsixId": "d7261d0b-5f95-456b-9b6a-b127d9afc8e4"
     },
     {
+      "name": "DgmlPowerTools 2019",
+      "vsixId": "DgmlPowerTools._2019.65dce6b1-74a3-4865-a285-492b41ab6d7c"
+    },
+    {
       "name": "Double-Click Maximize",
       "vsixId": "DoubleClickMaximize.050825c2-33a4-4b7d-b3af-bd46bd99a265"
     },
@@ -111,6 +115,10 @@
     {
       "name": "Extensibility Logs",
       "vsixId": "595c271e-e4b3-40ea-9ef7-1138f49b529c"
+    },
+    {
+      "name": "Extension Manager 2019",
+      "vsixId": "4a196712-2c3f-4730-ad1d-e7cda4185eb2"
     },
     {
       "name": "File Differ",
@@ -173,12 +181,20 @@
       "vsixId": "Microsoft.VisualStudio.LiveShare"
     },
     {
+      "name": "MappingGenerator",
+      "vsixId": "MappingGenerator"
+    },
+    {
       "name": "Markdown Editor",
       "vsixId": "9ca64947-e9ca-4543-bfb8-6cce9be19fd6"
     },
     {
       "name": "Match Margin",
       "vsixId": "MatchMargin.d85a25b5-f7b3-46a9-997e-a2d669dc2c93"
+    },
+    {
+      "name": "Microsoft DevSkim",
+      "vsixId": "DevSkim"
     },
     {
       "name": "Middle Click Scroll",
