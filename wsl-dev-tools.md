@@ -35,6 +35,17 @@
     source ~/.bashrc
 ```
 
+Install python3
+```bash
+    
+    sudo apt-get install python3-setuptools python3-dev build-essential
+    
+    curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+    
+    sudo python3 get-pip.py
+
+```
+
 8. [Install Azure CLI with apt](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-apt?view=azure-cli-latest)
 
 - Or Script
