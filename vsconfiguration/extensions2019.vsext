@@ -1,5 +1,5 @@
 {
-  "id": "71d85218-32c7-46cf-aa1f-53dc2edc18f7",
+  "id": "eed60306-c78b-4f0a-869e-71032900bf54",
   "name": "My Visual Studio extensions",
   "description": "A collection of my Visual Studio extensions",
   "version": "1.0",
@@ -113,6 +113,10 @@
       "vsixId": "4c38fd13-e407-4da6-a7b2-a04346af8942"
     },
     {
+      "name": "Extensibility Item Templates",
+      "vsixId": "88049e1e-62f2-4ea2-851f-9ddb2de37f41"
+    },
+    {
       "name": "Extensibility Logs",
       "vsixId": "595c271e-e4b3-40ea-9ef7-1138f49b529c"
     },
@@ -197,6 +201,10 @@
       "vsixId": "DevSkim"
     },
     {
+      "name": "Microsoft Reporting Services Projects",
+      "vsixId": "717ad572-c4b7-435c-c166-c2969777f718"
+    },
+    {
       "name": "Middle Click Scroll",
       "vsixId": "MiddleClickScroll.263a3239-a004-40e6-b790-4fd371832c85"
     },
@@ -211,6 +219,10 @@
     {
       "name": "Open in Visual Studio Code",
       "vsixId": "e99dde0e-e023-410d-bc5d-3f76db71e3f0"
+    },
+    {
+      "name": "Open VSIX Gallery",
+      "vsixId": "32b51a45-f958-4a80-8575-2c9906e45057"
     },
     {
       "name": "Package Installer",
@@ -289,6 +301,10 @@
       "vsixId": "SolutionErrorVisualizer.a392f96b-6b33-4b53-b4bb-3376a05f986c"
     },
     {
+      "name": "SQL Server Integration Services Projects",
+      "vsixId": "851E7A09-7B2B-4F06-A15D-BABFCB26B970"
+    },
+    {
       "name": "SQLite/SQL Server Compact Toolbox",
       "vsixId": "41521019-e4c7-480c-8ea8-fc4a2c6f50aa"
     },
@@ -313,6 +329,10 @@
       "vsixId": "4c1a78e6-e7b8-4aa9-8812-4836e051ff6d"
     },
     {
+      "name": "Tweaks",
+      "vsixId": "0c8bd9fa-77d5-4563-ab57-9e01608c3d04"
+    },
+    {
       "name": "Typewriter",
       "vsixId": "45b6b392-ce2f-409c-a39f-bbf90b34349e"
     },
@@ -327,10 +347,6 @@
     {
       "name": "VSCT IntelliSense",
       "vsixId": "6c042f35-bf5c-4cf2-826e-05d6d12e5309"
-    },
-    {
-      "name": "VSIX Gallery - nightly builds",
-      "vsixId": "32b51a45-f958-4a80-8575-2c9906e45057"
     },
     {
       "name": "VSIX Synchronizer",
