@@ -22,6 +22,8 @@ Check `Expose daemon on tcp://localhost:2375 without TLS`
 
 ## [Install and Configure Kubernetes Dashboard](https://github.com/kubernetes/dashboard)
 
+Alternative tool for K8s cluster is https://github.com/lensapp/lens
+
 - Install Dashboard
 
 ```cmd

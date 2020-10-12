@@ -68,3 +68,12 @@ Windows `Git` provides with Credential caching and doesn't require to be login.
     # Add the certificate to the agent
      ssh-add ~/.ssh/id_rsa
 ```
+
+## Remove files from history
+
+This is useful especially if there is a neeed to remove a large file
+
+```bash
+    git filter-branch --index-filter  "git rm -rf --cached --ignore-unmatch _file_name"
+    git update-ref -d refs/original/refs/heads/master
+```
