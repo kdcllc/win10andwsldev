@@ -1,0 +1,39 @@
+<opml version="2.0">
+	<body>
+		<outline text="Subscriptions" title="Subscriptions">
+			<outline xmlUrl='https://devblogs.microsoft.com/landingpage/' />
+			<outline xmlUrl='https://www.tabsoverspaces.com/feed.xml' />
+			<outline xmlUrl='https://sachabarbs.wordpress.com/feed/' />
+			<outline xmlUrl='https://deniskyashif.com/index.xml' />
+			<outline xmlUrl='https://cpratt.co/rss/' />
+			<outline xmlUrl='https://www.stevejgordon.co.uk/feed' />
+			<outline xmlUrl='https://www.strathweb.com/feed/' />
+			<outline xmlUrl='https://damienbod.com/feed/' />
+			<outline xmlUrl='http://feeds.hanselman.com/ScottHanselman' />
+			<outline xmlUrl='https://feeds.feedburner.com/netslave' />
+			<outline xmlUrl='https://andrewlock.net/rss.xml' />
+			<outline xmlUrl='https://www.mikesdotnetting.com/feed' />
+			<outline xmlUrl='https://blog.markvincze.com/rss/' />
+			<outline xmlUrl='https://natemcmaster.com/feed.xml' />
+			<outline xmlUrl='https://neelbhatt.com/feed/' />
+			<outline xmlUrl='https://thomaslevesque.com/index.xml' />
+			<outline xmlUrl='https://nodogmablog.bryanhogan.net/feed/' />
+			<outline xmlUrl='https://ardalis.com/rss.xml/' />
+			<outline xmlUrl='https://jasontaylor.dev/feed/' />
+			<outline xmlUrl='https://www.davepaquette.com/atom.xml' />
+			<outline xmlUrl='http://josephwoodward.co.uk/rss' />
+			<outline xmlUrl='http://feeds.feedburner.com/OdeToCode' />
+			<outline xmlUrl='https://jasontaylor.dev/feed/' />
+			<outline xmlUrl='https://anthonychu.ca/feed/rss/index.xml' />
+			<outline xmlUrl='https://techcommunity.microsoft.com/plugins/custom/microsoft/o365/custom-blog-rss?tid=-7929566676146628278&board=SQLServer&label=&messages=&size=10' />
+			<outline xmlUrl='https://feeds.feedburner.com/YetAnotherDeveloperBlog' />
+			<outline xmlUrl='https://zimmergren.net/feed/rss/' />
+			<outline xmlUrl='https://blog.risingstack.com/rss/' />
+			<outline xmlUrl='https://www.freshbrewed.science/rss/index.html' />
+			<outline xmlUrl='https://colinsalmcorner.com/rss/' />
+			<outline xmlUrl='https://www.robinwieruch.de/index.xml' />
+			<outline xmlUrl='https://ankitvijay.net/feed/' />
+			<outline xmlUrl='http://feeds.feedburner.com/GDBcode' />
+		</outline>
+	</body>
+</opml>
