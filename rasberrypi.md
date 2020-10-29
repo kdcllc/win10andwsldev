@@ -81,3 +81,22 @@ sudo systemctl unmask hostapd
 sudo systemctl enable hostapd
 sudo systemctl start hostapd
 ```
+
+## Revoke and remove users profiles
+
+1. Revoke `pivpn revoke [name]`
+
+2. Remove from the list
+```bash
+    # enter root
+    sudo -s
+    cd /etc/openvpn/easy-rsa/pki
+    nano index.txt
+    
+    # exit root
+    exit
+```
+
+Then remove all of the profiles that not needed any longer.
+
+3. Check `pivpn list`

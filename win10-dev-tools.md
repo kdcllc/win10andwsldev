@@ -2,6 +2,30 @@
 
 This is not a comprehensive list of all of the tools but a rough idea of the Web Development minimum required tools.
 
+Insatall the following script with [`winget`](https://docs.microsoft.com/en-us/windows/package-manager/winget/)
+
+```ps2
+    @echo off  
+    Echo Install Powertoys and Terminal  
+    REM Powertoys  
+    winget install Microsoft.Powertoys  
+    if %ERRORLEVEL% EQU 0 Echo Powertoys installed successfully.  
+ 
+    REM Terminal  
+    winget install Microsoft.WindowsTerminal  
+    if %ERRORLEVEL% EQU 0 Echo Terminal installed successfully.   %ERRORLEVEL%
+
+    REM Captura  
+    winget install captura  
+    if %ERRORLEVEL% EQU 0 Echo Captura installed successfully.   %ERRORLEVEL%
+
+    REM code-insiders  
+    winget install code-insiders  
+    if %ERRORLEVEL% EQU 0 Echo code-insiders installed successfully.   %ERRORLEVEL%
+```
+
+
+
 ## Install Visual Studio Code Insider edition with Git Windows edition
 
 1. [Install Latest .NET SDK](https://dotnet.microsoft.com/download)
