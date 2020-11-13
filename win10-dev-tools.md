@@ -2,6 +2,11 @@
 
 This is not a comprehensive list of all of the tools but a rough idea of the Web Development minimum required tools.
 
+[Install Windows App Installer.](https://www.microsoft.com/en-us/p/app-installer/9nblggh4nns1?ocid=9nblggh4nns1_ORSEARCH_Bing&rtc=2&activetab=pivot:overviewtab)
+
+[Windows Terminal](https://github.com/microsoft/terminal/releases)
+[Customization](./windows-termial.md)
+
 Insatall the following script with [`winget`](https://docs.microsoft.com/en-us/windows/package-manager/winget/)
 
 ```ps2
@@ -22,6 +27,11 @@ Insatall the following script with [`winget`](https://docs.microsoft.com/en-us/w
     REM code-insiders  
     winget install code-insiders  
     if %ERRORLEVEL% EQU 0 Echo code-insiders installed successfully.   %ERRORLEVEL%
+    
+    REM azure-cli  
+    winget install Microsoft.AzureCLI
+    if %ERRORLEVEL% EQU 0 Echo azure-cli installed successfully.   %ERRORLEVEL%
+    
 ```
 
 
