@@ -13,7 +13,7 @@
 4. Install [nvm](https://github.com/creationix/nvm)
 
 ```bash
-  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.37.0/install.sh | bash
 ```
 
 5. Install Node.js
@@ -70,6 +70,32 @@ Install python3
     #This terminal command used to remove packages that were automatically installed to satisfy dependencies for some package and no longer needed by those packages.
     sudo apt-get autoremove
 ```
+
+## [Install Kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+
+```bash
+    # install the latest release
+    curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
+
+    chmod +x ./kubectl
+    sudo  mv ./kubectl /usr/local/bin/kubectl
+    kubectl version --client
+    
+    # get aks 
+    az aks get-credentials -g aks-cluster -n aks-name
+    
+    # config
+    export KUBECONFIG=/mnt/c/Users/root/.kube.config
+```
+
+## [Install Helm3](https://helm.sh/docs/intro/install/)
+
+```bash
+ curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3
+ chmod 700 get_helm.sh
+ ./get_helm.sh
+```
+
 
 ### Reference posts
 
