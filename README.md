@@ -1,8 +1,8 @@
-# Windows 10 Linux Subsystem development setup
+# Windows 10 Linux Subsystem Development Setup
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/kdcllc/win10andwsldev/master/LICENSE)
 
-I personally &#x1F9E1; Windows for my FullStack development, thus this repo was born to keep track of installation scripts and setup instructions with Windows 10 Linux Subsystem (WSL2) to enabled FullStack development.
+I personally &#x1F9E1; Windows for my FullStack development, thus this repo was born to keep track of the installation scripts and setup instructions pertaining to Windows 10 Linux Subsystem (WSL2).
 
 1. The Installation steps for WSL, Visual Studio.NET, VS Code, DotNet Framework.
 2. The scripts to install or configure Web Development environment.
@@ -13,7 +13,8 @@ This option is useful if one desired to completely automate the process. It incl
 
 ## Window 10 Professional Configuration steps
 
-1. [Install clean version of Windows 10](https://www.microsoft.com/en-us/software-download/windows10). During installation process create a user named `Admin` then upon login into Windows run `Windows Update` to bring this system up-to-speed.
+1. [Install clean version of Windows 10](https://www.microsoft.com/en-us/software-download/windows10). 
+During installation process create a user named `Admin` then upon login into Windows run `Windows Update` to bring this system up-to-speed.
 
 2. [Update location of `User Profiles`](./win10-move-userprofile.md).
 

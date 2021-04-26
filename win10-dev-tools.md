@@ -31,7 +31,17 @@ Insatall the following script with [`winget`](https://docs.microsoft.com/en-us/w
     REM azure-cli  
     winget install Microsoft.AzureCLI
     if %ERRORLEVEL% EQU 0 Echo azure-cli installed successfully.   %ERRORLEVEL%
-    
+   
+
+    REM ueli  
+    winget install ueli
+    if %ERRORLEVEL% EQU 0 Echo ueli installed successfully.   %ERRORLEVEL%
+ 
+
+    REM voidtools.Everything  https://github.com/oliverschwendener/ueli/issues/504
+    winget install voidtools.Everything
+    if %ERRORLEVEL% EQU 0 Echo voidtools.Everything installed successfully.   %ERRORLEVEL%
+
 ```
 
 
