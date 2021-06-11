@@ -1,5 +1,5 @@
 {
-  "id": "eed60306-c78b-4f0a-869e-71032900bf54",
+  "id": "74a6bdd5-0bca-4f90-971a-ba7bf35a656b",
   "name": "My Visual Studio extensions",
   "description": "A collection of my Visual Studio extensions",
   "version": "1.0",
@@ -7,10 +7,6 @@
     {
       "name": ".ignore",
       "vsixId": "7ac24965-ea21-4108-9cac-6e46394aaaef"
-    },
-    {
-      "name": ".NET Core Debugging with WSL 2 - Preview",
-      "vsixId": "82e81c51-04b7-4681-91bb-87b6cf7c516b"
     },
     {
       "name": ".NET Portability Analyzer",
@@ -29,8 +25,16 @@
       "vsixId": "34f00824-cb6a-4bc1-a27d-7375239cdd2f"
     },
     {
+      "name": "AsyncFixer for Visual Studio 2019",
+      "vsixId": "AsyncFixer.Vsix..edab5fce-e3aa-4fea-9d60-a07bc11d493b"
+    },
+    {
       "name": "Azure Data Lake and Stream Analytics Tools",
       "vsixId": "1e906ff5-9da8-4091-a299-5c253c55fdc9"
+    },
+    {
+      "name": "Bridge to Kubernetes",
+      "vsixId": "f2d65832-b361-4eca-a72c-cd2f812958fd"
     },
     {
       "name": "Browser Reload on Save",
@@ -109,16 +113,24 @@
       "vsixId": "1209461d-57f8-46a4-814a-dbe5fecef941"
     },
     {
+      "name": "EF Core Power Tools",
+      "vsixId": "f4c4712c-ceae-4803-8e52-0e2049d5de9f"
+    },
+    {
       "name": "Extensibility Essentials 2019",
       "vsixId": "4c38fd13-e407-4da6-a7b2-a04346af8942"
     },
     {
-      "name": "Extensibility Item Templates",
-      "vsixId": "88049e1e-62f2-4ea2-851f-9ddb2de37f41"
-    },
-    {
       "name": "Extensibility Logs",
       "vsixId": "595c271e-e4b3-40ea-9ef7-1138f49b529c"
+    },
+    {
+      "name": "Extensibility Margin",
+      "vsixId": "41b4c077-6d9f-4e0a-a356-988baf3e830a"
+    },
+    {
+      "name": "Extensibility Template Pack",
+      "vsixId": "88049e1e-62f2-4ea2-851f-9ddb2de37f41"
     },
     {
       "name": "Extension Manager 2019",
@@ -147,6 +159,10 @@
     {
       "name": "Glyphfriend 2019",
       "vsixId": "Glyphfriend.VS2019.RionWilliams.da26054d-2c11-4d71-87c2-a4fa188a09c2"
+    },
+    {
+      "name": "HTML Tools 2019",
+      "vsixId": "8682fae0-2ce9-49ea-93b5-edc92c118e2a"
     },
     {
       "name": "ILSpy",
@@ -183,10 +199,6 @@
     {
       "name": "Live Share",
       "vsixId": "Microsoft.VisualStudio.LiveShare"
-    },
-    {
-      "name": "MappingGenerator",
-      "vsixId": "MappingGenerator"
     },
     {
       "name": "Markdown Editor",
@@ -305,7 +317,7 @@
       "vsixId": "851E7A09-7B2B-4F06-A15D-BABFCB26B970"
     },
     {
-      "name": "SQLite/SQL Server Compact Toolbox",
+      "name": "SQLite and SQL Server Compact Toolbox",
       "vsixId": "41521019-e4c7-480c-8ea8-fc4a2c6f50aa"
     },
     {
@@ -317,8 +329,24 @@
       "vsixId": "4773ce75-6f30-4269-9557-1f7c30a47be2"
     },
     {
+      "name": "T4Editor",
+      "vsixId": "T4Editor.abda42ab-5257-4c25-b35a-39b39709332b"
+    },
+    {
+      "name": "T4Executer",
+      "vsixId": "TTExecuter.5286e45f-3c63-44cb-84a5-ae1125ec8668"
+    },
+    {
+      "name": "Teams Toolkit",
+      "vsixId": "a095cd65-26d4-49a6-8e08-16eb49ba3a94"
+    },
+    {
       "name": "Template Creator",
       "vsixId": "49719076-63de-4191-8f25-470f5fb3b6cb"
+    },
+    {
+      "name": "Textmate Grammar Template",
+      "vsixId": "2913ed5b-5767-43f5-be7c-ff5c68754bc3"
     },
     {
       "name": "Time Stamp Margin",
@@ -337,8 +365,8 @@
       "vsixId": "45b6b392-ce2f-409c-a39f-bbf90b34349e"
     },
     {
-      "name": "Visual Studio IntelliCode",
-      "vsixId": "IntelliCode.VSIX.598224b2-b987-401b-8509-f568d0c0b946"
+      "name": "Visual Studio Rich Navigation",
+      "vsixId": "Microsoft.VisualStudio.Navigation.RichCodeNav"
     },
     {
       "name": "Visual Studio Spell Checker (VS2017 and Later)",
@@ -363,6 +391,10 @@
     {
       "name": "Web Essentials 2019",
       "vsixId": "509fc133-d9a6-4cf7-a558-e00fd11e0f9f"
+    },
+    {
+      "name": "Web Live Preview (Preview)",
+      "vsixId": "Microsoft.WebTools.BrowserLink.WebLivePreview"
     },
     {
       "name": "ZenCoding",

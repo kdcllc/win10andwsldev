@@ -7,8 +7,9 @@ This is not a comprehensive list of all of the tools but a rough idea of the Web
 [Windows Terminal](https://github.com/microsoft/terminal/releases)
 [Customization](./windows-termial.md)
 
-Insatall the following script with [`winget`](https://docs.microsoft.com/en-us/windows/package-manager/winget/)
-
+Install the following script with [`winget`](https://docs.microsoft.com/en-us/windows/package-manager/winget/)
+[Windows Package Manager 1.0 Released](https://devblogs.microsoft.com/commandline/windows-package-manager-1-0/)
+[Windows Package Manager](https://docs.microsoft.com/en-us/windows/package-manager/)
 ```ps2
     @echo off  
     Echo Install Powertoys and Terminal  
@@ -19,6 +20,10 @@ Insatall the following script with [`winget`](https://docs.microsoft.com/en-us/w
     REM Terminal  
     winget install Microsoft.WindowsTerminal  
     if %ERRORLEVEL% EQU 0 Echo Terminal installed successfully.   %ERRORLEVEL%
+
+    REM Microsoft.WindowsTerminalPreview
+    winget install Microsoft.WindowsTerminalPreview
+    if %ERRORLEVEL% EQU 0 Echo Terminal Preview installed successfully.   %ERRORLEVEL%
 
     REM Captura  
     winget install captura  
