@@ -49,8 +49,6 @@ Install the following script with [`winget`](https://docs.microsoft.com/en-us/wi
 
 ```
 
-
-
 ## Install Visual Studio Code Insider edition with Git Windows edition
 
 1. [Install Latest .NET SDK](https://dotnet.microsoft.com/download)
