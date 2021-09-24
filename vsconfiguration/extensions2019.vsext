@@ -1,5 +1,5 @@
 {
-  "id": "74a6bdd5-0bca-4f90-971a-ba7bf35a656b",
+  "id": "144d121c-96b2-4aa5-ae8f-c9e8e1a54333",
   "name": "My Visual Studio extensions",
   "description": "A collection of my Visual Studio extensions",
   "version": "1.0",
@@ -129,7 +129,7 @@
       "vsixId": "41b4c077-6d9f-4e0a-a356-988baf3e830a"
     },
     {
-      "name": "Extensibility Template Pack",
+      "name": "Extensibility Template Pack 2019",
       "vsixId": "88049e1e-62f2-4ea2-851f-9ddb2de37f41"
     },
     {
@@ -193,7 +193,7 @@
       "vsixId": "d6330ef4-ab82-4ab1-9828-4e43639e7521"
     },
     {
-      "name": "KnownMonikers Explorer",
+      "name": "KnownMonikers Explorer 2019",
       "vsixId": "c38f3512-4653-4d97-a4c5-860a425209f5"
     },
     {
@@ -269,7 +269,7 @@
       "vsixId": "ProductivityPowerPack.0d5b9d71-e118-46de-a20c-555176e53900"
     },
     {
-      "name": "Project System Tools",
+      "name": "Project System Tools 2017/2019",
       "vsixId": "B6213233-1C34-4F76-9DD5-F6D520C32AA3"
     },
     {
@@ -357,7 +357,7 @@
       "vsixId": "4c1a78e6-e7b8-4aa9-8812-4836e051ff6d"
     },
     {
-      "name": "Tweaks",
+      "name": "Tweaks 2019",
       "vsixId": "0c8bd9fa-77d5-4563-ab57-9e01608c3d04"
     },
     {
@@ -365,15 +365,15 @@
       "vsixId": "45b6b392-ce2f-409c-a39f-bbf90b34349e"
     },
     {
-      "name": "Visual Studio Rich Navigation",
-      "vsixId": "Microsoft.VisualStudio.Navigation.RichCodeNav"
-    },
-    {
       "name": "Visual Studio Spell Checker (VS2017 and Later)",
       "vsixId": "43EA967E-0DE2-4136-8E52-C6DCFB5C2748"
     },
     {
-      "name": "VSCT IntelliSense",
+      "name": "VS Theme Colors 2019",
+      "vsixId": "6ad27930-f7a1-4888-a172-c6fa4440e7a0"
+    },
+    {
+      "name": "VSCT IntelliSense 2019",
       "vsixId": "6c042f35-bf5c-4cf2-826e-05d6d12e5309"
     },
     {

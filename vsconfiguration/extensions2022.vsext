@@ -1,0 +1,164 @@
+{
+  "id": "f1e9347e-db23-4be9-9308-c34a88a3c083",
+  "name": "My Visual Studio extensions",
+  "description": "A collection of my Visual Studio extensions",
+  "version": "1.0",
+  "extensions": [
+    {
+      "name": "Add New File",
+      "vsixId": "2E78AA18-E864-4FBB-B8C8-6186FC865DB3"
+    },
+    {
+      "name": "Align Assignments 2022",
+      "vsixId": "AlignAssignments2022.41858b2d-ff0b-4a43-80b0-f1b2d6084935"
+    },
+    {
+      "name": "Clean Solution",
+      "vsixId": "55640f47-34bc-436b-8820-e7f64fbb31fc"
+    },
+    {
+      "name": "Clear MEF Component Cache",
+      "vsixId": "f5028141-9dd0-4ac4-ae6d-0481ae9a940d"
+    },
+    {
+      "name": "Code Converter (VB - C#)",
+      "vsixId": "7e2a69d6-193b-4cdf-878d-3370d5931942"
+    },
+    {
+      "name": "Comment Remover",
+      "vsixId": "d7c3f904-cc5a-4d47-aa25-81fb7c36df89"
+    },
+    {
+      "name": "Copy As Html 2022",
+      "vsixId": "CopyAsHtml2022.42374550-426a-400e-96f9-237682e8dea6"
+    },
+    {
+      "name": "Double-Click Maximize 2022",
+      "vsixId": "DoubleClickMaximize2022.050825c2-33a4-4b7d-b3af-bd46bd99a265"
+    },
+    {
+      "name": "Dummy Text Generator",
+      "vsixId": "0007e9e3-b11a-4d10-8565-9c6ce2ccc286"
+    },
+    {
+      "name": "Editor Enhancements",
+      "vsixId": "a3112f81-e423-4f88-9f2c-e089a309e48e"
+    },
+    {
+      "name": "EF Core Power Tools",
+      "vsixId": "f4c4712c-ceae-4803-8e52-0e2049d5de9f"
+    },
+    {
+      "name": "Extensibility Margin",
+      "vsixId": "41b4c077-6d9f-4e0a-a356-988baf3e830a"
+    },
+    {
+      "name": "Extension Manager 2022",
+      "vsixId": "4a196712-2c3f-4730-ad1d-e7cda4185eb3"
+    },
+    {
+      "name": "File Differ",
+      "vsixId": "ea5c68d6-cdae-4e79-bd46-2a39e95bb256"
+    },
+    {
+      "name": "File Icons",
+      "vsixId": "3a7b4930-a5fb-46ec-a9b8-9610c8f953b8"
+    },
+    {
+      "name": "Fix Mixed Tabs 2022",
+      "vsixId": "FixMixedTabs2022.9f1d3050-b986-4b10-ae36-97c6efc5e968"
+    },
+    {
+      "name": "ILSpy",
+      "vsixId": "a9120dbe-164a-4891-842f-fb7829273838"
+    },
+    {
+      "name": "Image Manifest Tools",
+      "vsixId": "d5ed0bf3-4e8d-4199-b1ff-6c271e08bd0b"
+    },
+    {
+      "name": "Image Optimizer",
+      "vsixId": "bf95754f-93d3-42ff-bfe3-e05d23188b08"
+    },
+    {
+      "name": "Image Sprites",
+      "vsixId": "cd92c0c6-2c32-49a3-83ca-0dc767c7d78e"
+    },
+    {
+      "name": "Insert Guid",
+      "vsixId": "9def4441-acfd-4dd6-bffd-4531a57dee37"
+    },
+    {
+      "name": "JavaScript Snippet Pack",
+      "vsixId": "2a20580c-7be4-4440-bcd6-8dcf5aa2004e"
+    },
+    {
+      "name": "Match Margin 2022",
+      "vsixId": "MatchMargin2022.d85a25b5-f7b3-46a9-997e-a2d669dc2c93"
+    },
+    {
+      "name": "Middle Click Scroll 2022",
+      "vsixId": "MiddleClickScroll2022.263a3239-a004-40e6-b790-4fd371832c85"
+    },
+    {
+      "name": "Open Command Line",
+      "vsixId": "f4ab1e64-5d35-4f06-bad9-bf414f4b3bbb"
+    },
+    {
+      "name": "Open in Visual Studio Code",
+      "vsixId": "e99dde0e-e023-410d-bc5d-3f76db71e3f0"
+    },
+    {
+      "name": "Open VSIX Gallery",
+      "vsixId": "32b51a45-f958-4a80-8575-2c9906e45057"
+    },
+    {
+      "name": "Package Installer",
+      "vsixId": "fdd64809-376e-4542-92ce-808a8df06bcc"
+    },
+    {
+      "name": "Peek Help 2022",
+      "vsixId": "PeekHelp2022.51f43c96-8220-43bf-a922-390a361e7640"
+    },
+    {
+      "name": "Pkgdef Language",
+      "vsixId": "06278dd5-5d9d-4f27-a3e8-cd619b101a50"
+    },
+    {
+      "name": "Productivity Power Tools 2022",
+      "vsixId": "ProductivityPowerPack2022.0d5b9d71-e118-46de-a20c-555176e53900"
+    },
+    {
+      "name": "Shrink Empty Lines 2022",
+      "vsixId": "SyntacticLineCompression2022.4452fb8f-b348-49eb-9499-76669d3f9c75"
+    },
+    {
+      "name": "Solution Error Visualizer 2022",
+      "vsixId": "SolutionErrorVisualizer2022.a392f96b-6b33-4b53-b4bb-3376a05f986c"
+    },
+    {
+      "name": "SQLite and SQL Server Compact Toolbox",
+      "vsixId": "41521019-e4c7-480c-8ea8-fc4a2c6f50aa"
+    },
+    {
+      "name": "SVG Viewer",
+      "vsixId": "SvgViewer.7a08d0d4-985c-4415-93d5-ddd9135d8f4f"
+    },
+    {
+      "name": "Textmate Grammar Template",
+      "vsixId": "2913ed5b-5767-43f5-be7c-ff5c68754bc3"
+    },
+    {
+      "name": "Time Stamp Margin 2022",
+      "vsixId": "TimeStampMargin2022.255e8b14-4a53-4eb7-89a7-7ab741c1f612"
+    },
+    {
+      "name": "Trailing Whitespace Visualizer",
+      "vsixId": "4c1a78e6-e7b8-4aa9-8812-4836e051ff6d"
+    },
+    {
+      "name": "VSIX Synchronizer",
+      "vsixId": "d7834c28-6a0f-4b5a-b3e0-735dc78cd439"
+    }
+  ]
+}
