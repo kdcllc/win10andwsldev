@@ -1,16 +1,20 @@
 {
-  "id": "f1e9347e-db23-4be9-9308-c34a88a3c083",
+  "id": "ee12a554-71bd-4bc6-9f3c-c6dd8347f022",
   "name": "My Visual Studio extensions",
   "description": "A collection of my Visual Studio extensions",
   "version": "1.0",
   "extensions": [
     {
-      "name": "Add New File",
-      "vsixId": "2E78AA18-E864-4FBB-B8C8-6186FC865DB3"
+      "name": "Add New File (64-bit)",
+      "vsixId": "d48e8f25-661b-4970-8b66-03f051ba5fc3"
     },
     {
       "name": "Align Assignments 2022",
       "vsixId": "AlignAssignments2022.41858b2d-ff0b-4a43-80b0-f1b2d6084935"
+    },
+    {
+      "name": "Bundler & Minifier 2022+",
+      "vsixId": "5783ce1f-b23d-4e84-87a4-6b2cbe9e0602"
     },
     {
       "name": "Clean Solution",
@@ -19,6 +23,10 @@
     {
       "name": "Clear MEF Component Cache",
       "vsixId": "f5028141-9dd0-4ac4-ae6d-0481ae9a940d"
+    },
+    {
+      "name": "Code Cleanup On Save",
+      "vsixId": "66985471-b701-4851-a2d7-5a8bdce1e694"
     },
     {
       "name": "Code Converter (VB - C#)",
@@ -42,15 +50,23 @@
     },
     {
       "name": "Editor Enhancements",
-      "vsixId": "a3112f81-e423-4f88-9f2c-e089a309e48e"
+      "vsixId": "13a2ec1a-6b20-46a9-af99-b1064b00c9a8"
     },
     {
       "name": "EF Core Power Tools",
       "vsixId": "f4c4712c-ceae-4803-8e52-0e2049d5de9f"
     },
     {
+      "name": "Extensibility Essentials 2022",
+      "vsixId": "4c38fd13-e407-4da6-a7b2-a04346af8943"
+    },
+    {
       "name": "Extensibility Margin",
       "vsixId": "41b4c077-6d9f-4e0a-a356-988baf3e830a"
+    },
+    {
+      "name": "Extensibility Template Pack 2022",
+      "vsixId": "88049e1e-62f2-4ea2-851f-9ddb2de37f42"
     },
     {
       "name": "Extension Manager 2022",
@@ -69,20 +85,28 @@
       "vsixId": "FixMixedTabs2022.9f1d3050-b986-4b10-ae36-97c6efc5e968"
     },
     {
-      "name": "ILSpy",
-      "vsixId": "a9120dbe-164a-4891-842f-fb7829273838"
+      "name": "Git Pull",
+      "vsixId": "c71355fb-bd6f-4235-a3b0-0ebaa2bad36f"
+    },
+    {
+      "name": "Gulp Snippet Pack",
+      "vsixId": "17c6719c-d92f-4bdb-a145-ea2d6dd70900"
+    },
+    {
+      "name": "HTML Snippet Pack",
+      "vsixId": "7f30a50b-8211-40cf-b881-bd1eb2866478"
     },
     {
       "name": "Image Manifest Tools",
-      "vsixId": "d5ed0bf3-4e8d-4199-b1ff-6c271e08bd0b"
+      "vsixId": "04f92311-4748-4f87-9d94-1aae42483d1f"
     },
     {
-      "name": "Image Optimizer",
-      "vsixId": "bf95754f-93d3-42ff-bfe3-e05d23188b08"
+      "name": "Image Optimizer (64-bit)",
+      "vsixId": "fc4e241f-57de-4032-9c89-527984c0a0ae"
     },
     {
       "name": "Image Sprites",
-      "vsixId": "cd92c0c6-2c32-49a3-83ca-0dc767c7d78e"
+      "vsixId": "4974d92e-e0ac-462a-ae65-73a000503802"
     },
     {
       "name": "Insert Guid",
@@ -93,16 +117,36 @@
       "vsixId": "2a20580c-7be4-4440-bcd6-8dcf5aa2004e"
     },
     {
+      "name": "KnownMonikers Explorer 2022",
+      "vsixId": "c38f3512-4653-4d97-a4c5-860a425209f6"
+    },
+    {
+      "name": "Live Share 2022",
+      "vsixId": "Microsoft.VisualStudio.LiveShare.2022"
+    },
+    {
+      "name": "Markdown Editor (64-bit)",
+      "vsixId": "9ca64947-e9ca-4543-bfb8-6cce9be19fd7"
+    },
+    {
       "name": "Match Margin 2022",
       "vsixId": "MatchMargin2022.d85a25b5-f7b3-46a9-997e-a2d669dc2c93"
+    },
+    {
+      "name": "Microsoft Visual Studio Installer Projects 2022",
+      "vsixId": "VSInstallerProjects2022"
     },
     {
       "name": "Middle Click Scroll 2022",
       "vsixId": "MiddleClickScroll2022.263a3239-a004-40e6-b790-4fd371832c85"
     },
     {
+      "name": "ML.NET Model Builder 2022",
+      "vsixId": "A274A0E2-E41E-40CC-A694-8D5D14BBD2D0"
+    },
+    {
       "name": "Open Command Line",
-      "vsixId": "f4ab1e64-5d35-4f06-bad9-bf414f4b3bbb"
+      "vsixId": "a7b534ac-949b-40f9-a795-deb511823941"
     },
     {
       "name": "Open in Visual Studio Code",
@@ -114,23 +158,51 @@
     },
     {
       "name": "Package Installer",
-      "vsixId": "fdd64809-376e-4542-92ce-808a8df06bcc"
+      "vsixId": "6ffd6f4d-bbe0-489a-8f6a-33f440773f14"
     },
     {
       "name": "Peek Help 2022",
       "vsixId": "PeekHelp2022.51f43c96-8220-43bf-a922-390a361e7640"
     },
     {
+      "name": "Performance Notification Center",
+      "vsixId": "PerformanceNotificationCenter.43a70199-1df3-4b38-871f-98d7cad0436d"
+    },
+    {
       "name": "Pkgdef Language",
       "vsixId": "06278dd5-5d9d-4f27-a3e8-cd619b101a50"
+    },
+    {
+      "name": "Presenter Mode",
+      "vsixId": "RecordingDefaults.aa418e38-6c48-42a8-b461-a575b9e4f26a"
     },
     {
       "name": "Productivity Power Tools 2022",
       "vsixId": "ProductivityPowerPack2022.0d5b9d71-e118-46de-a20c-555176e53900"
     },
     {
+      "name": "Project System Tools 2022",
+      "vsixId": "cb5b6a78-6fa1-4830-a272-760862eb77af"
+    },
+    {
+      "name": "Reset Zoom",
+      "vsixId": "0a987da3-4577-4eec-aaa9-a4c2cdd5d22b"
+    },
+    {
+      "name": "Roslynator 2022",
+      "vsixId": "f326ee1b-81a6-4577-b251-1f29d391cef3"
+    },
+    {
       "name": "Shrink Empty Lines 2022",
       "vsixId": "SyntacticLineCompression2022.4452fb8f-b348-49eb-9499-76669d3f9c75"
+    },
+    {
+      "name": "Single-project MSIX Packaging Tools for VS 2022",
+      "vsixId": "Microsoft.SingleProjectMSIXPackagingTools.Dev17"
+    },
+    {
+      "name": "SlowCheetah",
+      "vsixId": "Microsoft.VisualStudio.SlowCheetah.Dev17"
     },
     {
       "name": "Solution Error Visualizer 2022",
@@ -154,11 +226,39 @@
     },
     {
       "name": "Trailing Whitespace Visualizer",
-      "vsixId": "4c1a78e6-e7b8-4aa9-8812-4836e051ff6d"
+      "vsixId": "dac582ef-fc73-42f6-ad45-afaad93d88a4"
+    },
+    {
+      "name": "Tweaks 2022",
+      "vsixId": "0c8bd9fa-77d5-4563-ab57-9e01608c3d05"
+    },
+    {
+      "name": "TypeScript Definition Generator",
+      "vsixId": "cad7b20b-4b83-4ca6-bf24-ca36a494241c"
+    },
+    {
+      "name": "Visual Studio Theme Pack",
+      "vsixId": "VisualStudioThemePack.453e3fa1-2e0e-467e-abbd-1d08fe6468d1"
+    },
+    {
+      "name": "VS Theme Colors 2022",
+      "vsixId": "6ad27930-f7a1-4888-a172-c6fa4440e7a1"
+    },
+    {
+      "name": "VSCode Theme Converter",
+      "vsixId": "ThemeConverter.df309c71-fe30-4f88-bf07-d73fbc24fd11"
+    },
+    {
+      "name": "VSCT IntelliSense 2022",
+      "vsixId": "6c042f35-bf5c-4cf2-826e-05d6d12e5300"
     },
     {
       "name": "VSIX Synchronizer",
-      "vsixId": "d7834c28-6a0f-4b5a-b3e0-735dc78cd439"
+      "vsixId": "751759cc-53b5-45f6-8d75-43392a1dd89c"
+    },
+    {
+      "name": "ZenCoding",
+      "vsixId": "9514d70e-a7b1-4876-847d-b0d2ad0962bf"
     }
   ]
 }
