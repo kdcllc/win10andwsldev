@@ -1,5 +1,5 @@
 {
-  "id": "ee12a554-71bd-4bc6-9f3c-c6dd8347f022",
+  "id": "df8ce7a1-3e53-488a-a666-e35eeaa2fe9b",
   "name": "My Visual Studio extensions",
   "description": "A collection of my Visual Studio extensions",
   "version": "1.0",
@@ -51,10 +51,6 @@
     {
       "name": "Editor Enhancements",
       "vsixId": "13a2ec1a-6b20-46a9-af99-b1064b00c9a8"
-    },
-    {
-      "name": "EF Core Power Tools",
-      "vsixId": "f4c4712c-ceae-4803-8e52-0e2049d5de9f"
     },
     {
       "name": "Extensibility Essentials 2022",
@@ -187,6 +183,10 @@
     {
       "name": "Reset Zoom",
       "vsixId": "0a987da3-4577-4eec-aaa9-a4c2cdd5d22b"
+    },
+    {
+      "name": "Rest Client",
+      "vsixId": "RestClientVS.a7b4a362-3ce8-4953-9b19-a35166f2cbfd"
     },
     {
       "name": "Roslynator 2022",
