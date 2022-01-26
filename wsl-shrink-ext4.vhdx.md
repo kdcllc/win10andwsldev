@@ -11,7 +11,7 @@
 
     # 4. optimize
     cd C:\Users\Root\AppData\Local\Docker\wsl\data
-    optimize-vhd -Path .\ext4.vhdx -Mode full\
+    optimize-vhd -Path .\ext4.vhdx -Mode full
 
     # 5. optimize with diskpart
 
