@@ -33,6 +33,8 @@ Project based `git` settings:
 3. Install `Docker Desktop` : `winget install Docker.DockerDesktop`
 
 
+4. [Install Visual Studio Community](https://visualstudio.microsoft.com/free-developer-offers/) or paid
+
 ## Other
 
 [Terminal customization](./windows-termial.md)
@@ -44,12 +46,6 @@ Project based `git` settings:
 
 - Windows MSI installation package is to be used for this operation.
 - WSL2 installation `curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash`
-
-## Install Visual Studio.NET 2017
-
-[Install Visual Studio Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15) or paid
-
-- Sign-In and configure Visual Studio.NET Identities.
 
 ### Visual Studio.NET 2019
 
