@@ -5,10 +5,11 @@ The first step is to configure the authentication based on a custom token then a
 
 .NET Core supports these two options for restoring packages:
 
-- `Nuget.exe` has been used with previous version of .NET framework.
+- `nuget.exe` has been used with previous version of .NET framework.
 - `dotnet restore` cli comes with build in functionality as well.
 
-### Nuget.Config
+### `Nuget.Config`
+
 In both cases we can use `Nuget.Config` file to add feeds configuration information. We can configure this information on [Project/User/Computer levels](https://docs.microsoft.com/en-us/nuget/consume-packages/configuring-nuget-behavior).
 
 Here an example of `Nuget.Config` file:
@@ -92,7 +93,7 @@ Run `cmd.exe` As Administrator
     %UserProfile%\AppData\Roaming\Nuget
 ```
 
-4. Better credietial management is thru storing your credential by [Installing Azure Artifacts Credential Provider](https://github.com/Microsoft/artifacts-credprovider)
+4. Better credential management is thru storing your credential by [Installing Azure Artifacts Credential Provider](https://github.com/Microsoft/artifacts-credprovider)
 
 - [Run the powershell script](https://raw.githubusercontent.com/Microsoft/artifacts-credprovider/master/helpers/installcredprovider.ps1)
 
