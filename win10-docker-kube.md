@@ -1,4 +1,4 @@
-# Install and Configure Docker and Kubernates
+# Install and Configure Docker and Kubernetes
 
 1. Control Panel --> Turn Windows Feature on or off --> Windows Hypervisor Platform or [powershell script](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
 
