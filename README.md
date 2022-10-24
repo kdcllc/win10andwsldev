@@ -25,7 +25,7 @@ Or Run this powershell script
     Set-ItemProperty -Path HKLM:\Software\Microsoft\Windows\CurrentVersion\AppModelUnlock -Name AllowDevelopmentWithoutDevLicense -Value 1
 ```
 
-4. [Install wsl on Windows 11 Pro](https://docs.microsoft.com/en-us/windows/wsl/install).
+4. [Install `wsl` on Windows 11 Pro](https://docs.microsoft.com/en-us/windows/wsl/install).
 
 5. [Install Windows 11 FullStack Development tools](./win11-dev/fullstack-dev-tools.md).
 

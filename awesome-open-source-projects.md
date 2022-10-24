@@ -50,6 +50,8 @@ Watch [VS Code for the Web live stream](https://www.youtube.com/watch?v=sy3TUb_i
 - <https://github.com/microsoft/FeatureManagement-Dotnet> [![Open in vscode.dev](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/github/microsoft/FeatureManagement-Dotnet)
 - <https://github.com/microsoft/ApplicationInsights-dotnet> [![Open in vscode.dev](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/github/microsoft/ApplicationInsights-dotnet)
 
+- <https://github.com/Microsoft/vscode-recipes/>[![Open in vscode.dev](https://open.vscode.dev/badges/open-in-vscode.svg)]<https://github.com/Microsoft/vscode-recipes>)
+
 ### Coyote
 
 - https://github.com/microsoft/coyote [![Open in vscode.dev](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/github/microsoft/coyote)

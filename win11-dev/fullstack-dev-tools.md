@@ -47,10 +47,7 @@ Project based `git` settings:
 - Windows MSI installation package is to be used for this operation.
 - WSL2 installation `curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash`
 
-### Visual Studio.NET 2019
 
-- [Install Extension Manager 2019](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ExtensionManager2019)
-- [Download Visual Studio 2019 extensions2019.vsext](https://raw.githubusercontent.com/kdcllc/win10andwsldev/master/vsconfiguration/extensions2019.vsext)
 
 - [Add and Configure Azure Nuget Custom Feed](./azure-nuget-feed.md)
 
