@@ -1,8 +1,8 @@
-# Windows 10/11 Open SSH
+# Windows 11 Open SSH
 
 Enabled the Open SSH and configure powershell to remember the SSH key passphrase.
 
-<https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement?msclkid=6e0329fbb5a711ecb43f813e6a0402cb>
+[Key-based authentication in OpenSSH for Windows](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement)
 
 ## Setup
 

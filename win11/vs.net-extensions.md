@@ -1,4 +1,4 @@
-# Visual Studio.NET Extensions management
+# Visual Studio.NET Extensions
 
 When setting up a new development environment is it helpful to be able to export/import existing extensions.
 
