@@ -14,6 +14,8 @@ Windows 11 comes with preinstalled with:
 
 1. Install `vscode-insiders` : `winget install code-insiders`
 
+In one of my installs the options for menu on File Explore wasn't enabled, so I ran [OpenWithVScodeFix.reg](./scripts/OpenWithVScodeFix.reg).
+
 2. Install `git for windows` : `winget install Git.Git`
 
 Global `git` user setting:
@@ -37,7 +39,7 @@ Project based `git` settings:
 
 ## Other
 
-[Terminal customization](./windows-termial.md)
+[Terminal customization](./windows-terminal.md)
 
 
 ## Install Azure CLI

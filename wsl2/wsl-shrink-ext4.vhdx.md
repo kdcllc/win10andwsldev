@@ -12,13 +12,13 @@
     wsl --shutdown
 
     # 4. optimize
-    cd C:\Users\Root\AppData\Local\Docker\wsl\data
+    cd C:\Users\{UserFolder}\AppData\Local\Docker\wsl\data
     optimize-vhd -Path .\ext4.vhdx -Mode full
 
     # 5. optimize with diskpart
 
     diskpart
-     select vdisk file="C:\Users\Root\AppData\Local\Docker\wsl\data\ext4.vhdx"
+     select vdisk file="C:\Users\{UserFolder}\AppData\Local\Docker\wsl\data\ext4.vhdx"
     compact vdisk
 ```
 
@@ -41,7 +41,7 @@
     wsl --shutdown
 
     # 6. navigate to distro
-    cd C:\Users\Root\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState
+    cd C:\Users\{UserFolder}\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState
     
     # 7. follow the steps from docker image shrink
 ```

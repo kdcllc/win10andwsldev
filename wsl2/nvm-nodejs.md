@@ -8,7 +8,7 @@ This utility is must have for `node.js` development. It allows for installation 
 1. [Install on wsl2](https://github.com/nvm-sh/nvm#install--update-script)
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```
 
 ``` bash

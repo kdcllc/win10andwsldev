@@ -1,4 +1,4 @@
-# Awesome Open-Source Projects
+# Awesome DotNetCore Open-Source Projects
 
 Watch [VS Code for the Web live stream](https://www.youtube.com/watch?v=sy3TUb_iVJM&ab_channel=VisualStudioCode)
 
@@ -52,9 +52,28 @@ Watch [VS Code for the Web live stream](https://www.youtube.com/watch?v=sy3TUb_i
 
 - <https://github.com/Microsoft/vscode-recipes/>[![Open in vscode.dev](https://open.vscode.dev/badges/open-in-vscode.svg)]<https://github.com/Microsoft/vscode-recipes>)
 
+### Machine Learning ML.NET
+
+- [Product-Recommendations](https://github.com/microsoft/Product-Recommendations) [![Open in vscode.dev](https://vscode.dev/github/microsoft/Product-Recommendations)
+- [InsiderDevTour18-ML](https://github.com/microsoft/InsiderDevTour18-ML)[Open in vscode.dev](https://vscode.dev/github/microsoft/InsiderDevTour18-ML)
+-[What is the Microsoft Data Prep SDK for .NET?](https://docs.microsoft.com/en-us/dotnet/api/overview/data-prep/overview-data-prep)
+
 ### Coyote
 
 - https://github.com/microsoft/coyote [![Open in vscode.dev](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/github/microsoft/coyote)
 
 - https://github.com/microsoft/coyote-samples [![Open in vscode.dev](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/github/microsoft/coyote-samples)
 - https://github.com/nanderto/FirstAspNetCoyote [![Open in vscode.dev](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/github/nanderto/FirstAspNetCoyote)
+ 
+
+## DotNet Cli Tools
+
+- [DotNet Try](https://github.com/dotnet/try#setup)
+- [dotnet-grpc](https://www.nuget.org/packages/dotnet-grpc)
+- [dotnet-counters](https://www.nuget.org/packages/dotnet-counters)
+- [Microsoft.dotnet-httprepl](https://www.nuget.org/packages/Microsoft.dotnet-httprepl)
+- [dotnet-outdated-tool](https://www.nuget.org/packages/dotnet-outdated-tool)
+- [dotnet-certes](https://www.nuget.org/packages/dotnet-certes)
+- [dotnet-trace](https://www.nuget.org/packages/dotnet-trace)
+
+
