@@ -68,6 +68,13 @@ Watch [VS Code for the Web live stream](https://www.youtube.com/watch?v=sy3TUb_i
 
 ## DotNet Cli Tools
 
+In order to run cli tools that are bound to a specific version
+
+[Framework-dependent apps roll-forward](https://learn.microsoft.com/en-us/dotnet/core/versions/selection#framework-dependent-apps-roll-forward)
+```powershell
+    $Env:DOTNET_ROLL_FORWARD = "Major"
+```
+
 - [DotNet Try](https://github.com/dotnet/try#setup)
 - [dotnet-grpc](https://www.nuget.org/packages/dotnet-grpc)
 - [dotnet-counters](https://www.nuget.org/packages/dotnet-counters)
@@ -75,5 +82,8 @@ Watch [VS Code for the Web live stream](https://www.youtube.com/watch?v=sy3TUb_i
 - [dotnet-outdated-tool](https://www.nuget.org/packages/dotnet-outdated-tool)
 - [dotnet-certes](https://www.nuget.org/packages/dotnet-certes)
 - [dotnet-trace](https://www.nuget.org/packages/dotnet-trace)
+- [migrate-2019](https://www.nuget.org/packages/Project2015To2017.Migrate2019.Tool)
+- [upgrade-assistant](https://www.nuget.org/packages/upgrade-assistant)
+- [try-convert](https://www.nuget.org/packages/try-convert)
 
 
