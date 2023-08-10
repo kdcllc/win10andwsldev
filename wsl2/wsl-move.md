@@ -14,3 +14,12 @@ Steps to export wsl:
 ```
 
 Steps to import wsl:
+
+modiy the default user
+
+/etc/wsl.conf
+
+```
+    [user]
+    default=your_username
+```

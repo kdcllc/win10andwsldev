@@ -1,5 +1,7 @@
 # Windows 11 Developers' tools installations
 
+**Windows 11 22H2 22621.674**
+
 This is not a comprehensive list of all of the tools but a rough idea of the Web Development minimum required tools.
 
 Windows 11 comes with preinstalled with:
@@ -46,12 +48,7 @@ Project based `git` settings:
 
 - Windows MSI installation package is to be used for this operation.
 - WSL2 installation `curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash`
-
-
-
 - [Add and Configure Azure Nuget Custom Feed](./azure-nuget-feed.md)
-
-
 
 ## Install RESTful Tools
 
