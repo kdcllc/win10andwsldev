@@ -1,6 +1,7 @@
-# Configuring SSH for Windows 10 and WSL2
+# Configuring SSH for WSL2
 
 ## MINGW64:Git Bash
+
 [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 ```bash

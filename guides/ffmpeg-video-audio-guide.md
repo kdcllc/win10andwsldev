@@ -1,8 +1,7 @@
-# Video or Audio
-
-## ffmpeg
+# ffmpeg Video or Audio guide
 
 ## Converting Audio into Different Formats / Sample Rates
+
 Minimal example: transcode from MP3 to WMA:
 `ffmpeg -i input.mp3 output.wma`
  
