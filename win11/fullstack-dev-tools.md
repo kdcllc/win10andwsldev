@@ -34,7 +34,9 @@ Project based `git` settings:
     git config user.name "kdcllc"
 ```
 
-3. Install `Docker Desktop` : `winget install Docker.DockerDesktop`
+3. Install `Docker Desktop` 
+ - `winget install Docker.DockerDesktop`
+ - [Kubernetes Lens](https://k8slens.dev/)
 
 
 4. [Install Visual Studio Community](https://visualstudio.microsoft.com/free-developer-offers/) or paid
@@ -65,7 +67,6 @@ Project based `git` settings:
 - [Unblock downloaded PowerShell scripts](https://social.technet.microsoft.com/wiki/contents/articles/38496.unblock-downloaded-powershell-scripts.aspx?Redirected=true)
 - [Ditto Clipboard Manager](https://ditto-cp.sourceforge.io/)
 - [Keypirinha Program Launcher](http://keypirinha.com/)
-- [f.lux](https://justgetflux.com/news/pages/v4/welcome/#download)
 - [Rufus Create bootable USB drives the easy way](https://github.com/pbatard/rufus)
 - [Azure Storage Explorer](https://azure.microsoft.com/en-us/features/storage-explorer/)
 - [Azure Data Studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-ver15) can be a replacement for Microsoft SQL Management Studio.
@@ -75,3 +76,25 @@ Project based `git` settings:
 ```
 
 - [Powershell Script To Remove .NET Core Sdks](./scripts/RemoveCoreSDKs.ps1)
+
+
+### Visual Studio.Net Incognito setup
+
+```text
+Chrome
+Program: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
+Arguments: --incognito
+Friendly Name: Chrome - Incognito
+
+
+Firefox
+Program: "C:\Program Files\Mozilla Firefox\firefox.exe"
+Arguments: -private
+Friendly Name: Firefox - Incognito
+
+Edge Dev on Chromium
+Program: "C:\Program Files (x86)\Microsoft\Edge Dev\Application\msedge.exe"
+Arguments: -inprivate
+Friendly Name: Edge Dev - Incognito
+
+``````
