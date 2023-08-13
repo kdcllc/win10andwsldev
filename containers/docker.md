@@ -1,28 +1,37 @@
-# Installation and Configuration of Docker/Kubernetes on Windows 10
+# Docker
 
-## Configure Docker Daemon
+## Commands
 
-1. Enable tcp communication on `tcp` protocol for WSL communication:
+- Clean up
 
-Check `Expose daemon on tcp://localhost:2375 without TLS`
+```bash
+    # clean up system
+    docker system prune -f
+    docker container prune -f
 
-2. Enable Kubernetes
+    # list all images
+    docker images -f dangling=true
+    # clean up
+    docker rmi -f $(docker images -f "dangling=true" -q)
 
-- Check Enable Kubernetes
-- Deploy Docker Stack to Kubernetes by default
-- Check Kubernetes install
-
-```cmd
-    kubectl cluster-info
 ```
+-  Toggle Context
+To toggle between context
 
-3. Shared Drives
+```bash
+    # list all docker contexts
+    docker context ls
+    
+    # the VM based context that enables Kubernetes
+    docker context use default
 
-- Check all of the drives to be shared
+    # new WSL2 context
+    docker context use wsl
+```
 
 ## [Install and Configure Kubernetes Dashboard](https://github.com/kubernetes/dashboard)
 
-Alternative tool for K8s cluster is https://github.com/lensapp/lens
+Alternative tool for K8s cluster is <https://github.com/lensapp/lens>
 
 - Install Dashboard
 
@@ -43,3 +52,9 @@ Alternative tool for K8s cluster is https://github.com/lensapp/lens
 ```
 
 [http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/overview?namespace=default](http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/overview?namespace=default)
+
+
+## References
+
+- [Use Docker to build, test and push your Artifacts](https://lostechies.com/gabrielschenker/2016/09/26/use-docker-to-build-test-and-push-your-artifacts/)
+

@@ -1,54 +1,9 @@
-# Configuring SSH for Windows 10 and WSL2
-
-## Windows PowerShell
-
-Steps done once per setup:
-
-```powershell
-    # 1. enable the ssh-agent, by default it is disabled
-    Set-Service ssh-agent -StartupType Automatic
-
-    # 2. start the service
-    Start-Service ssh-agent
-
-    # 3. Get information about the started service.
-    Get-Service ssh-agent
-
-    # 4. Generate key
-    ssh-keygen -t rsa -b 4096 -C "your_email@kingdavidconsulting.com"
-
-    # 5. add path "Enter a file in which to save the key"
-    $ENV:USERPROFILE\.ssh\id_rsa_github
-
-    # 6. Adds profile to the service
-    ssh-add $ENV:USERPROFILE\.ssh\id_rsa_github
-
-    # 7. lists all of the profiles added, check that newly added is in the list.
-    ssh-add -l
-
-    # 8. if config file doesn't exist create
-    $ENV:USERPROFILE\.ssh\config
-    Host github.com
-        IdentityFile ~/.ssh/id_rsa_github
-
-
-    # 9. copy the public key to github
-    cat $ENV:USERPROFILE\.ssh\id_rsa_github.pub
-
-
-    # 10 . check the connection after creating the config file
-    ssh -vvv git@github.com
-
-    # 11. check the connection
-    ssh -T git@github.com
-
-
-    # delete all of the profiles
-    ssh-add -D
-```
+# Configuring SSH for WSL2
 
 ## MINGW64:Git Bash
+
 [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
 ```bash
     # 1. start ssh-agent
     eval $(ssh-agent -s)
@@ -62,6 +17,7 @@ Steps done once per setup:
     
     cat  ~/.ssh/id_rsa_github.pub
 ```
+
 Once the windows is closed the session is lost and the following must be re-entered:
 
 ```bash

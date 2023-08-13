@@ -17,7 +17,7 @@
 ```
 
 5. Install Node.js
-
+ 
 ```bash
     export NODE_VERSION=10.13.0 && \
     nvm install ${NODE_VERSION} && \

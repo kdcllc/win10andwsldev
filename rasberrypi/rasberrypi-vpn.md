@@ -1,13 +1,13 @@
 # Raspberry PI WI-FI Hotspot with VPN
 
 The following assumptions are made:
+
 - First Raspberry PI configured as VPN server with [PIVPN](http://www.pivpn.io/)
 - OpenVPN configuration file is generated.
 
 ## Creating `Raspbian` Image on Windows 10
 
 [Rufus](https://rufus.ie/) can be used to create a bootable image for [Raspbian Buster Lite](https://www.raspberrypi.org/downloads/raspbian/)
-
 
 ## Installation
 

@@ -21,7 +21,7 @@ Windows `Git` provides with Credential caching and doesn't require to be login.
 [How to use GIT and other Linux tools in WSL on Windows](https://medium.com/faun/how-to-use-git-and-other-linux-tools-in-wsl-on-windows-4c0bffb68b35)
 
 ```bash
-    git config --global user.email "info@kingdavidconsulting.com"
+    git config --global user.email "@kingdavidconsulting.com"
     git config --global user.name "kdcllc"
 
     # The core.autocrlf=input setting is pretty crucial. It can break things you install over git (like rbenv).
@@ -34,7 +34,7 @@ Windows `Git` provides with Credential caching and doesn't require to be login.
 ## Project based configurations
 
 ```bash
-    git config user.email "info@kingdavidconsulting.com"
+    git config user.email "@kingdavidconsulting.com"
     git config user.name "kdcllc"
 ```
 
@@ -45,7 +45,7 @@ Windows `Git` provides with Credential caching and doesn't require to be login.
 - Generating new SSH Key for Github
 
 ```bash
-    ssh-keygen -t rsa -b 4096 -C "info@kingdavidconsulting.com"
+    ssh-keygen -t rsa -b 4096 -C "@kingdavidconsulting.com"
 ```
 
 [Use SSH key authentication with Azure](https://docs.microsoft.com/en-us/azure/devops/repos/git/use-ssh-keys-to-authenticate?view=vsts)
@@ -53,7 +53,7 @@ Windows `Git` provides with Credential caching and doesn't require to be login.
 - Generating new SSH Key for Azure Repos
 
 ```bash
-    ssh-keygen -C "info@kingdavidconsulting.com"
+    ssh-keygen -C "@kingdavidconsulting.com"
 ```
 
 - Add the key to Git Agent
