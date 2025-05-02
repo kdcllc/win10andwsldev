@@ -1,6 +1,20 @@
 # Windows 11 Linux Subsystem Development Setup
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/kdcllc/win10andwsldev/master/LICENSE)
+![I stand with Israel](./images/IStandWithIsrael.png)
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/kdcllc/AI-DrivenDevEnv/master/LICENSE) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+## Hire Me
+
+Please send [email](mailto:kingdavidconsulting@gmail.com) if you consider hiring me.
+
+[![buymeacoffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/vyve0og)
+
+## Give a Star! :star:
+
+If you like or are using this project to learn or start your solution, please give it a star. Thanks!
+
+## Description
 
 I personally &#x1F9E1; Windows for my FullStack development, thus this repo was born to keep track of the installation scripts and setup instructions pertaining to Windows 11 Linux Subsystem (WSL2).
 
